@@ -1,0 +1,62 @@
+:root {
+  --ink: #1c1a17;
+  --paper: #faf8f5;
+  --accent: #2f5d50;
+  --line: #ddd7cd;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+.app {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 4rem;
+}
+
+header h1 { font-size: 2rem; margin-bottom: 0.25rem; }
+.subtitle { color: #5a554c; font-size: 0.95rem; max-width: 50ch; }
+
+.planner-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+}
+
+.planner-form label { display: flex; flex-direction: column; gap: 0.3rem; font-size: 0.9rem; }
+.planner-form input, .planner-form select {
+  font-family: inherit; font-size: 1rem; padding: 0.5rem;
+  border: 1px solid var(--line); border-radius: 4px; background: white;
+}
+
+fieldset { border: 1px solid var(--line); border-radius: 4px; padding: 0.75rem; }
+.checkbox { flex-direction: row !important; align-items: center; gap: 0.4rem !important; display: inline-flex; margin-right: 1rem; }
+
+button {
+  align-self: flex-start; background: var(--accent); color: white; border: none;
+  padding: 0.65rem 1.4rem; border-radius: 4px; font-size: 1rem; cursor: pointer;
+}
+button:disabled { opacity: 0.6; cursor: default; }
+
+.error { color: #b3261e; }
+.results { margin-top: 2.5rem; }
+.results ol { padding-left: 1.2rem; }
+.results li { margin-bottom: 0.5rem; }
+
+.option {
+  margin-top: 1.5rem;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: white;
+}
+.option h3 { margin: 0 0 0.25rem; }
+.rationale { color: #5a554c; font-size: 0.9rem; margin-top: 0; }

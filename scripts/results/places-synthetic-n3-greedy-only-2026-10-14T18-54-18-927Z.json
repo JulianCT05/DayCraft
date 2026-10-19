@@ -1,0 +1,556 @@
+{
+  "ranAt": "2026-10-14T18:54:18.937Z",
+  "source": "synthetic",
+  "options": {
+    "synthetic": true,
+    "runAi": false,
+    "cities": [
+      "Raleigh NC",
+      "Greensboro NC",
+      "Charlotte NC"
+    ],
+    "interests": [
+      "museum",
+      "park",
+      "cafe"
+    ],
+    "budget": "medium",
+    "hours": 8,
+    "candidates": 10
+  },
+  "summary": {
+    "greedyAvgPercent": 63.14,
+    "aiAvgPercent": null,
+    "citiesWithNoValidAiOption": null
+  },
+  "perCity": [
+    {
+      "city": "Raleigh NC",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Raleigh NC-0",
+          "name": "Raleigh NC shopping mall 1",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-1",
+          "name": "Raleigh NC museum 2",
+          "types": [
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-2",
+          "name": "Raleigh NC park 3",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-3",
+          "name": "Raleigh NC cafe 4",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-4",
+          "name": "Raleigh NC restaurant 5",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-5",
+          "name": "Raleigh NC art gallery 6",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-6",
+          "name": "Raleigh NC museum 7",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-7",
+          "name": "Raleigh NC park 8",
+          "types": [
+            "park"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-8",
+          "name": "Raleigh NC cafe 9",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-9",
+          "name": "Raleigh NC restaurant 10",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-10",
+          "name": "Raleigh NC art gallery 11",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-11",
+          "name": "Raleigh NC historical landmark 12",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.3
+        }
+      ],
+      "events": [
+        {
+          "name": "Raleigh NC museum 2",
+          "start": "09:00",
+          "end": "11:00",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC cafe 4",
+          "start": "10:00",
+          "end": "10:45",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC art gallery 6",
+          "start": "10:23",
+          "end": "11:53",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC park 8",
+          "start": "11:08",
+          "end": "12:38",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC park 3",
+          "start": "11:53",
+          "end": "13:23",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC museum 7",
+          "start": "12:38",
+          "end": "14:38",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC cafe 9",
+          "start": "13:38",
+          "end": "14:23",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC restaurant 10",
+          "start": "14:01",
+          "end": "15:31",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC historical landmark 12",
+          "start": "14:46",
+          "end": "16:01",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC shopping mall 1",
+          "start": "15:24",
+          "end": "16:54",
+          "priority": false
+        }
+      ],
+      "optimalScore": 750,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 435,
+        "ratio": 0.58
+      }
+    },
+    {
+      "city": "Greensboro NC",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Greensboro NC-0",
+          "name": "Greensboro NC museum 1",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-1",
+          "name": "Greensboro NC park 2",
+          "types": [
+            "park"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Greensboro NC-2",
+          "name": "Greensboro NC cafe 3",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-3",
+          "name": "Greensboro NC restaurant 4",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Greensboro NC-4",
+          "name": "Greensboro NC art gallery 5",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-5",
+          "name": "Greensboro NC historical landmark 6",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Greensboro NC-6",
+          "name": "Greensboro NC shopping mall 7",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-7",
+          "name": "Greensboro NC museum 8",
+          "types": [
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Greensboro NC-8",
+          "name": "Greensboro NC park 9",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-9",
+          "name": "Greensboro NC cafe 10",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Greensboro NC-10",
+          "name": "Greensboro NC restaurant 11",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Greensboro NC-11",
+          "name": "Greensboro NC art gallery 12",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 4.3
+        }
+      ],
+      "events": [
+        {
+          "name": "Greensboro NC park 2",
+          "start": "09:00",
+          "end": "10:30",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC museum 8",
+          "start": "09:45",
+          "end": "11:45",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC cafe 10",
+          "start": "10:45",
+          "end": "11:30",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC art gallery 12",
+          "start": "11:08",
+          "end": "12:38",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC museum 1",
+          "start": "11:53",
+          "end": "13:53",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC cafe 3",
+          "start": "12:53",
+          "end": "13:38",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC park 9",
+          "start": "13:16",
+          "end": "14:46",
+          "priority": true
+        },
+        {
+          "name": "Greensboro NC restaurant 4",
+          "start": "14:01",
+          "end": "15:31",
+          "priority": false
+        },
+        {
+          "name": "Greensboro NC historical landmark 6",
+          "start": "14:46",
+          "end": "16:01",
+          "priority": false
+        },
+        {
+          "name": "Greensboro NC art gallery 5",
+          "start": "15:24",
+          "end": "16:54",
+          "priority": false
+        }
+      ],
+      "optimalScore": 630,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 450,
+        "ratio": 0.7143
+      }
+    },
+    {
+      "city": "Charlotte NC",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Charlotte NC-0",
+          "name": "Charlotte NC art gallery 1",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-1",
+          "name": "Charlotte NC historical landmark 2",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Charlotte NC-2",
+          "name": "Charlotte NC shopping mall 3",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-3",
+          "name": "Charlotte NC museum 4",
+          "types": [
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Charlotte NC-4",
+          "name": "Charlotte NC park 5",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-5",
+          "name": "Charlotte NC cafe 6",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Charlotte NC-6",
+          "name": "Charlotte NC restaurant 7",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-7",
+          "name": "Charlotte NC art gallery 8",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Charlotte NC-8",
+          "name": "Charlotte NC museum 9",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-9",
+          "name": "Charlotte NC park 10",
+          "types": [
+            "park"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Charlotte NC-10",
+          "name": "Charlotte NC cafe 11",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Charlotte NC-11",
+          "name": "Charlotte NC restaurant 12",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.3
+        }
+      ],
+      "events": [
+        {
+          "name": "Charlotte NC museum 4",
+          "start": "09:00",
+          "end": "11:00",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC cafe 6",
+          "start": "10:00",
+          "end": "10:45",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC art gallery 8",
+          "start": "10:23",
+          "end": "11:53",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC park 10",
+          "start": "11:08",
+          "end": "12:38",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC park 5",
+          "start": "11:53",
+          "end": "13:23",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC museum 9",
+          "start": "12:38",
+          "end": "14:38",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC cafe 11",
+          "start": "13:38",
+          "end": "14:23",
+          "priority": true
+        },
+        {
+          "name": "Charlotte NC historical landmark 2",
+          "start": "14:01",
+          "end": "15:16",
+          "priority": false
+        },
+        {
+          "name": "Charlotte NC restaurant 12",
+          "start": "14:39",
+          "end": "16:09",
+          "priority": false
+        },
+        {
+          "name": "Charlotte NC art gallery 1",
+          "start": "15:24",
+          "end": "16:54",
+          "priority": false
+        }
+      ],
+      "optimalScore": 750,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 450,
+        "ratio": 0.6
+      }
+    }
+  ]
+}

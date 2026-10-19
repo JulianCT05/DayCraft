@@ -1,0 +1,1080 @@
+{
+  "ranAt": "2026-10-13T17:09:11.846Z",
+  "n": 30,
+  "seed": 1,
+  "ranAi": false,
+  "rowIndices": [
+    42,
+    62,
+    65,
+    68,
+    94,
+    101,
+    103,
+    119,
+    154,
+    166,
+    170,
+    173,
+    224,
+    228,
+    233,
+    235,
+    242,
+    243,
+    248,
+    279,
+    294,
+    365,
+    411,
+    419,
+    421,
+    458,
+    469,
+    470,
+    477,
+    495
+  ],
+  "summary": {
+    "greedyAvgPercent": 91.9,
+    "aiAvgPercent": null,
+    "casesWithNoValidAiOption": null
+  },
+  "perCase": [
+    {
+      "rowIndex": 42,
+      "prompt": "Events:\n- Jam session (01:06 - 02:21)\n- Fireworks (07:36 - 09:36)\n- Avril Lavigne concert (21:02 - 22:47)\n- David Guetta DJ set (21:17 - 21:47)\n\nPriorities:\n- Jam session",
+      "optimalScore": 375,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Jam session",
+            "start": 66,
+            "end": 141
+          },
+          {
+            "name": "Fireworks",
+            "start": 456,
+            "end": 576
+          },
+          {
+            "name": "David Guetta DJ set",
+            "start": 1277,
+            "end": 1307
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 300,
+        "ratio": 0.8
+      }
+    },
+    {
+      "rowIndex": 62,
+      "prompt": "Events:\n- The Killers concert (02:48 - 03:18)\n- Korean BBQ food trucks (04:03 - 04:33)\n- Backstage tour VIP pass (06:27 - 07:42)\n- Silent disco party (06:53 - 08:23)\n- Sum 41 concert (10:51 - 11:21)\n- Fireworks (12:36 - 13:51)\n- Jam session (17:34 - 18:49)\n- David Guetta DJ set (19:34 - 20:49)\n\nPriorities:\n- Sum 41 concert",
+      "optimalScore": 435,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "The Killers concert",
+            "start": 168,
+            "end": 198
+          },
+          {
+            "name": "Korean BBQ food trucks",
+            "start": 243,
+            "end": 273
+          },
+          {
+            "name": "Backstage tour VIP pass",
+            "start": 387,
+            "end": 462
+          },
+          {
+            "name": "Sum 41 concert",
+            "start": 651,
+            "end": 681
+          },
+          {
+            "name": "Fireworks",
+            "start": 756,
+            "end": 831
+          },
+          {
+            "name": "Jam session",
+            "start": 1054,
+            "end": 1129
+          },
+          {
+            "name": "David Guetta DJ set",
+            "start": 1174,
+            "end": 1249
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 420,
+        "ratio": 0.9655
+      }
+    },
+    {
+      "rowIndex": 65,
+      "prompt": "Events:\n- Jam session (00:52 - 01:22)\n- Silent disco party (04:41 - 05:56)\n- Korean BBQ food trucks (05:08 - 05:53)\n- Avril Lavigne concert (09:03 - 11:03)\n- The Killers concert (14:18 - 15:48)\n- Sum 41 concert (19:22 - 21:07)\n- David Guetta DJ set (19:41 - 19:56)\n\nPriorities:\n- Sum 41 concert",
+      "optimalScore": 525,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Jam session",
+            "start": 52,
+            "end": 82
+          },
+          {
+            "name": "Korean BBQ food trucks",
+            "start": 308,
+            "end": 353
+          },
+          {
+            "name": "Avril Lavigne concert",
+            "start": 543,
+            "end": 663
+          },
+          {
+            "name": "The Killers concert",
+            "start": 858,
+            "end": 948
+          },
+          {
+            "name": "Sum 41 concert",
+            "start": 1162,
+            "end": 1267
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 495,
+        "ratio": 0.9429
+      }
+    },
+    {
+      "rowIndex": 68,
+      "prompt": "Events:\n- Walking with Bella (04:37 - 05:22)\n- Deep cleaning the kitchen (05:07 - 07:07)\n- Reading 'Dune' (07:11 - 08:41)\n- Planting flowers in the garden (11:00 - 12:30)\n- Yoga class with Emily (12:18 - 13:48)\n- Watching 'Inception' (16:10 - 16:25)\n\nPriorities:\n- Walking with Bella",
+      "optimalScore": 315,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Walking with Bella",
+            "start": 277,
+            "end": 322
+          },
+          {
+            "name": "Reading 'Dune'",
+            "start": 431,
+            "end": 521
+          },
+          {
+            "name": "Planting flowers in the garden",
+            "start": 660,
+            "end": 750
+          },
+          {
+            "name": "Watching 'Inception'",
+            "start": 970,
+            "end": 985
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 285,
+        "ratio": 0.9048
+      }
+    },
+    {
+      "rowIndex": 94,
+      "prompt": "Events:\n- Preparing PTO handover (08:34 - 09:49)\n- Marketing standup on Zoom (15:17 - 16:17)\n- Analyzing product performance (18:05 - 18:20)\n- One-on-one with manager (18:37 - 20:22)\n- Replying to emails (18:40 - 19:55)\n\nPriorities:\n- Analyzing product performance",
+      "optimalScore": 270,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Preparing PTO handover",
+            "start": 514,
+            "end": 589
+          },
+          {
+            "name": "Marketing standup on Zoom",
+            "start": 917,
+            "end": 977
+          },
+          {
+            "name": "Analyzing product performance",
+            "start": 1085,
+            "end": 1100
+          },
+          {
+            "name": "Replying to emails",
+            "start": 1120,
+            "end": 1195
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 240,
+        "ratio": 0.8889
+      }
+    },
+    {
+      "rowIndex": 101,
+      "prompt": "Events:\n- Q1 revenue report writing (02:22 - 03:22)\n- Updating website content (11:05 - 13:05)\n- Preparing PTO handover (11:57 - 13:27)\n- Marketing standup on Zoom (19:59 - 20:59)\n\nPriorities:\n- Preparing PTO handover",
+      "optimalScore": 300,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Q1 revenue report writing",
+            "start": 142,
+            "end": 202
+          },
+          {
+            "name": "Preparing PTO handover",
+            "start": 717,
+            "end": 807
+          },
+          {
+            "name": "Marketing standup on Zoom",
+            "start": 1199,
+            "end": 1259
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 300,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 103,
+      "prompt": "Events:\n- Jam session (01:41 - 02:11)\n- Fireworks (04:23 - 05:38)\n- Avril Lavigne concert (04:41 - 04:56)\n- The Killers concert (12:52 - 13:07)\n- David Guetta DJ set (13:54 - 15:39)\n- Sum 41 concert (14:33 - 16:18)\n- Silent disco party (20:12 - 20:57)\n\nPriorities:\n- Jam session\n- David Guetta DJ set",
+      "optimalScore": 405,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Jam session",
+            "start": 101,
+            "end": 131
+          },
+          {
+            "name": "Avril Lavigne concert",
+            "start": 281,
+            "end": 296
+          },
+          {
+            "name": "The Killers concert",
+            "start": 772,
+            "end": 787
+          },
+          {
+            "name": "David Guetta DJ set",
+            "start": 834,
+            "end": 939
+          },
+          {
+            "name": "Silent disco party",
+            "start": 1212,
+            "end": 1257
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 345,
+        "ratio": 0.8519
+      }
+    },
+    {
+      "rowIndex": 119,
+      "prompt": "Events:\n- Trying new VR headset (00:10 - 01:25)\n- Networking with engineers (00:17 - 01:47)\n- Web3 panel discussion (04:48 - 05:18)\n- Small Language Models talk (05:35 - 07:35)\n- Digital detox meditation session (09:37 - 11:37)\n- Live coding on Rust (15:33 - 16:03)\n- Drone building hackathon (18:25 - 19:40)\n\nPriorities:\n- Live coding on Rust\n- Digital detox meditation session",
+      "optimalScore": 615,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Trying new VR headset",
+            "start": 10,
+            "end": 85
+          },
+          {
+            "name": "Web3 panel discussion",
+            "start": 288,
+            "end": 318
+          },
+          {
+            "name": "Small Language Models talk",
+            "start": 335,
+            "end": 455
+          },
+          {
+            "name": "Digital detox meditation session",
+            "start": 577,
+            "end": 697
+          },
+          {
+            "name": "Live coding on Rust",
+            "start": 933,
+            "end": 963
+          },
+          {
+            "name": "Drone building hackathon",
+            "start": 1105,
+            "end": 1180
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 600,
+        "ratio": 0.9756
+      }
+    },
+    {
+      "rowIndex": 154,
+      "prompt": "Events:\n- Calculus lecture with Prof. Adams (03:37 - 04:07)\n- Office hours with Prof. Chen (05:27 - 07:27)\n- Group study for physics test (16:52 - 17:52)\n- Chess with Daniel (20:42 - 22:42)\n- Researching in library (20:44 - 21:59)\n\nPriorities:\n- Chess with Daniel\n- Calculus lecture with Prof. Adams",
+      "optimalScore": 480,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Calculus lecture with Prof. Adams",
+            "start": 217,
+            "end": 247
+          },
+          {
+            "name": "Office hours with Prof. Chen",
+            "start": 327,
+            "end": 447
+          },
+          {
+            "name": "Group study for physics test",
+            "start": 1012,
+            "end": 1072
+          },
+          {
+            "name": "Chess with Daniel",
+            "start": 1242,
+            "end": 1362
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 480,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 166,
+      "prompt": "Events:\n- Korean BBQ food trucks (00:04 - 01:34)\n- Backstage tour VIP pass (01:07 - 01:52)\n- Sum 41 concert (09:57 - 11:27)\n- Jam session (13:58 - 14:28)\n\nPriorities:\n- Backstage tour VIP pass",
+      "optimalScore": 210,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Backstage tour VIP pass",
+            "start": 67,
+            "end": 112
+          },
+          {
+            "name": "Sum 41 concert",
+            "start": 597,
+            "end": 687
+          },
+          {
+            "name": "Jam session",
+            "start": 838,
+            "end": 868
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 210,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 170,
+      "prompt": "Events:\n- Sum 41 concert (00:43 - 02:28)\n- Avril Lavigne concert (05:15 - 05:45)\n- David Bowie tribute concert (08:29 - 09:14)\n- The Killers concert (08:33 - 08:48)\n- David Guetta DJ set (10:48 - 12:18)\n- Korean BBQ food trucks (19:04 - 20:19)\n- Silent disco party (20:21 - 21:06)\n- Jam session (21:01 - 21:16)\n\nPriorities:\n- Jam session\n- Avril Lavigne concert\n- David Guetta DJ set",
+      "optimalScore": 510,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Sum 41 concert",
+            "start": 43,
+            "end": 148
+          },
+          {
+            "name": "Avril Lavigne concert",
+            "start": 315,
+            "end": 345
+          },
+          {
+            "name": "The Killers concert",
+            "start": 513,
+            "end": 528
+          },
+          {
+            "name": "David Guetta DJ set",
+            "start": 648,
+            "end": 738
+          },
+          {
+            "name": "Korean BBQ food trucks",
+            "start": 1144,
+            "end": 1219
+          },
+          {
+            "name": "Jam session",
+            "start": 1261,
+            "end": 1276
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 465,
+        "ratio": 0.9118
+      }
+    },
+    {
+      "rowIndex": 173,
+      "prompt": "Events:\n- Backstage tour VIP pass (04:31 - 06:31)\n- Fireworks (05:59 - 06:59)\n- Sum 41 concert (15:04 - 16:49)\n- The Killers concert (15:12 - 15:42)\n- Jam session (20:09 - 20:24)\n\nPriorities:\n- Sum 41 concert\n- Fireworks",
+      "optimalScore": 345,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Fireworks",
+            "start": 359,
+            "end": 419
+          },
+          {
+            "name": "Sum 41 concert",
+            "start": 904,
+            "end": 1009
+          },
+          {
+            "name": "Jam session",
+            "start": 1209,
+            "end": 1224
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 345,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 224,
+      "prompt": "Events:\n- Brainstorming with Luke and Patrick (06:25 - 07:10)\n- Client call with Acme Corp (10:27 - 11:27)\n- Analyzing product performance (11:03 - 12:03)\n- Preparing PTO handover (11:48 - 13:18)\n- Updating website content (14:02 - 15:17)\n- Meeting with Lisa at café (20:17 - 21:17)\n\nPriorities:\n- Preparing PTO handover",
+      "optimalScore": 420,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Brainstorming with Luke and Patrick",
+            "start": 385,
+            "end": 430
+          },
+          {
+            "name": "Client call with Acme Corp",
+            "start": 627,
+            "end": 687
+          },
+          {
+            "name": "Preparing PTO handover",
+            "start": 708,
+            "end": 798
+          },
+          {
+            "name": "Updating website content",
+            "start": 842,
+            "end": 917
+          },
+          {
+            "name": "Meeting with Lisa at café",
+            "start": 1217,
+            "end": 1277
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 420,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 228,
+      "prompt": "Events:\n- 3D printing workshop (03:30 - 04:45)\n- Async Python talk (04:14 - 06:14)\n- Trying new VR headset (06:45 - 07:45)\n- Live coding on Rust (09:43 - 09:58)\n- Web3 panel discussion (13:09 - 14:24)\n- Networking with engineers (14:23 - 16:08)\n- AI keynote (17:01 - 17:16)\n- Small Language Models talk (20:10 - 21:55)\n\nPriorities:\n- 3D printing workshop\n- Live coding on Rust\n- Trying new VR headset",
+      "optimalScore": 525,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "3D printing workshop",
+            "start": 210,
+            "end": 285
+          },
+          {
+            "name": "Trying new VR headset",
+            "start": 405,
+            "end": 465
+          },
+          {
+            "name": "Live coding on Rust",
+            "start": 583,
+            "end": 598
+          },
+          {
+            "name": "Web3 panel discussion",
+            "start": 789,
+            "end": 864
+          },
+          {
+            "name": "AI keynote",
+            "start": 1021,
+            "end": 1036
+          },
+          {
+            "name": "Small Language Models talk",
+            "start": 1210,
+            "end": 1315
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 495,
+        "ratio": 0.9429
+      }
+    },
+    {
+      "rowIndex": 233,
+      "prompt": "Events:\n- Shopping at farmer's market (03:18 - 03:33)\n- Calling Mom and Dad (04:26 - 05:56)\n- Jogging at the park (04:27 - 04:57)\n- Deep cleaning the kitchen (06:30 - 07:30)\n- Yoga class with Emily (07:10 - 08:55)\n- Watching 'Inception' (12:20 - 13:50)\n\nPriorities:\n- Shopping at farmer's market\n- Watching 'Inception'",
+      "optimalScore": 405,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Shopping at farmer's market",
+            "start": 198,
+            "end": 213
+          },
+          {
+            "name": "Jogging at the park",
+            "start": 267,
+            "end": 297
+          },
+          {
+            "name": "Deep cleaning the kitchen",
+            "start": 390,
+            "end": 450
+          },
+          {
+            "name": "Watching 'Inception'",
+            "start": 740,
+            "end": 830
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 300,
+        "ratio": 0.7407
+      }
+    },
+    {
+      "rowIndex": 235,
+      "prompt": "Events:\n- Calling Mom and Dad (00:08 - 00:38)\n- Jogging at the park (05:10 - 05:25)\n- Planting flowers in the garden (05:19 - 05:34)\n- Yoga class with Emily (08:17 - 09:17)\n- Watching 'Inception' (08:59 - 09:44)\n- Reading 'Dune' (13:28 - 15:28)\n- Cooking pasta (15:11 - 15:26)\n- Shopping at farmer's market (17:40 - 18:55)\n\nPriorities:\n- Watching 'Inception'\n- Jogging at the park\n- Yoga class with Emily",
+      "optimalScore": 375,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Calling Mom and Dad",
+            "start": 8,
+            "end": 38
+          },
+          {
+            "name": "Jogging at the park",
+            "start": 310,
+            "end": 325
+          },
+          {
+            "name": "Yoga class with Emily",
+            "start": 497,
+            "end": 557
+          },
+          {
+            "name": "Cooking pasta",
+            "start": 911,
+            "end": 926
+          },
+          {
+            "name": "Shopping at farmer's market",
+            "start": 1060,
+            "end": 1135
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 270,
+        "ratio": 0.72
+      }
+    },
+    {
+      "rowIndex": 242,
+      "prompt": "Events:\n- Shopping at farmer's market (00:05 - 01:05)\n- Reading 'Dune' (07:51 - 09:36)\n- Yoga class with Emily (08:23 - 10:08)\n- Walking with Bella (14:07 - 15:37)\n- Jogging at the park (14:23 - 15:23)\n- Deep cleaning the kitchen (16:10 - 16:55)\n- Planting flowers in the garden (18:23 - 20:23)\n\nPriorities:\n- Shopping at farmer's market",
+      "optimalScore": 480,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Shopping at farmer's market",
+            "start": 5,
+            "end": 65
+          },
+          {
+            "name": "Reading 'Dune'",
+            "start": 471,
+            "end": 576
+          },
+          {
+            "name": "Jogging at the park",
+            "start": 863,
+            "end": 923
+          },
+          {
+            "name": "Deep cleaning the kitchen",
+            "start": 970,
+            "end": 1015
+          },
+          {
+            "name": "Planting flowers in the garden",
+            "start": 1103,
+            "end": 1223
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 450,
+        "ratio": 0.9375
+      }
+    },
+    {
+      "rowIndex": 243,
+      "prompt": "Events:\n- Shopping at farmer's market (01:14 - 01:44)\n- Deep cleaning the kitchen (02:13 - 02:28)\n- Cooking pasta (13:31 - 13:46)\n- Watching 'Inception' (13:32 - 14:32)\n- Calling Mom and Dad (13:53 - 14:23)\n- Jogging at the park (20:34 - 22:19)\n\nPriorities:\n- Cooking pasta\n- Shopping at farmer's market",
+      "optimalScore": 240,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Shopping at farmer's market",
+            "start": 74,
+            "end": 104
+          },
+          {
+            "name": "Deep cleaning the kitchen",
+            "start": 133,
+            "end": 148
+          },
+          {
+            "name": "Cooking pasta",
+            "start": 811,
+            "end": 826
+          },
+          {
+            "name": "Calling Mom and Dad",
+            "start": 833,
+            "end": 863
+          },
+          {
+            "name": "Jogging at the park",
+            "start": 1234,
+            "end": 1339
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 240,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 248,
+      "prompt": "Events:\n- Updating website content (00:46 - 02:46)\n- Brainstorming with Luke and Patrick (01:08 - 01:23)\n- Client call with Acme Corp (05:15 - 07:00)\n- One-on-one with manager (09:08 - 10:08)\n- Replying to emails (12:11 - 13:41)\n- Q1 revenue report writing (13:21 - 13:36)\n- Meeting with Lisa at café (14:42 - 16:27)\n- Analyzing product performance (15:16 - 16:16)\n\nPriorities:\n- Replying to emails\n- Updating website content\n- One-on-one with manager",
+      "optimalScore": 750,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Updating website content",
+            "start": 46,
+            "end": 166
+          },
+          {
+            "name": "Client call with Acme Corp",
+            "start": 315,
+            "end": 420
+          },
+          {
+            "name": "One-on-one with manager",
+            "start": 548,
+            "end": 608
+          },
+          {
+            "name": "Replying to emails",
+            "start": 731,
+            "end": 821
+          },
+          {
+            "name": "Analyzing product performance",
+            "start": 916,
+            "end": 976
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 705,
+        "ratio": 0.94
+      }
+    },
+    {
+      "rowIndex": 279,
+      "prompt": "Events:\n- 3D printing workshop (02:21 - 04:06)\n- Digital detox meditation session (06:49 - 07:34)\n- Drone building hackathon (07:02 - 09:02)\n- Small Language Models talk (21:37 - 22:52)\n\nPriorities:\n- Drone building hackathon",
+      "optimalScore": 420,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "3D printing workshop",
+            "start": 141,
+            "end": 246
+          },
+          {
+            "name": "Drone building hackathon",
+            "start": 422,
+            "end": 542
+          },
+          {
+            "name": "Small Language Models talk",
+            "start": 1297,
+            "end": 1372
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 420,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 294,
+      "prompt": "Events:\n- Small Language Models talk (05:04 - 05:34)\n- Async Python talk (08:40 - 10:25)\n- Digital detox meditation session (08:42 - 08:57)\n- AI keynote (13:45 - 15:30)\n- Trying new VR headset (17:54 - 18:54)\n\nPriorities:\n- Small Language Models talk\n- Digital detox meditation session",
+      "optimalScore": 330,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Small Language Models talk",
+            "start": 304,
+            "end": 334
+          },
+          {
+            "name": "Digital detox meditation session",
+            "start": 522,
+            "end": 537
+          },
+          {
+            "name": "AI keynote",
+            "start": 825,
+            "end": 930
+          },
+          {
+            "name": "Trying new VR headset",
+            "start": 1074,
+            "end": 1134
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 255,
+        "ratio": 0.7727
+      }
+    },
+    {
+      "rowIndex": 365,
+      "prompt": "Events:\n- Q1 revenue report writing (07:44 - 09:14)\n- Meeting with Lisa at café (16:29 - 16:44)\n- Marketing standup on Zoom (16:30 - 18:00)\n- Replying to emails (18:13 - 18:43)\n\nPriorities:\n- Replying to emails",
+      "optimalScore": 240,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Q1 revenue report writing",
+            "start": 464,
+            "end": 554
+          },
+          {
+            "name": "Meeting with Lisa at café",
+            "start": 989,
+            "end": 1004
+          },
+          {
+            "name": "Replying to emails",
+            "start": 1093,
+            "end": 1123
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 165,
+        "ratio": 0.6875
+      }
+    },
+    {
+      "rowIndex": 411,
+      "prompt": "Events:\n- Analyzing product performance (16:43 - 17:13)\n- Brainstorming with Luke and Patrick (17:48 - 19:03)\n- Preparing PTO handover (18:22 - 20:22)\n- One-on-one with manager (21:41 - 23:41)\n\nPriorities:\n- One-on-one with manager",
+      "optimalScore": 390,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Analyzing product performance",
+            "start": 1003,
+            "end": 1033
+          },
+          {
+            "name": "Brainstorming with Luke and Patrick",
+            "start": 1068,
+            "end": 1143
+          },
+          {
+            "name": "One-on-one with manager",
+            "start": 1301,
+            "end": 1421
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 345,
+        "ratio": 0.8846
+      }
+    },
+    {
+      "rowIndex": 419,
+      "prompt": "Events:\n- Web3 panel discussion (08:16 - 09:31)\n- Digital detox meditation session (17:12 - 18:27)\n- Networking with engineers (19:50 - 20:20)\n- Trying new VR headset (19:56 - 20:11)\n- Drone building hackathon (21:30 - 23:00)\n\nPriorities:\n- Networking with engineers\n- Drone building hackathon",
+      "optimalScore": 390,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Web3 panel discussion",
+            "start": 496,
+            "end": 571
+          },
+          {
+            "name": "Digital detox meditation session",
+            "start": 1032,
+            "end": 1107
+          },
+          {
+            "name": "Networking with engineers",
+            "start": 1190,
+            "end": 1220
+          },
+          {
+            "name": "Drone building hackathon",
+            "start": 1290,
+            "end": 1380
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 390,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 421,
+      "prompt": "Events:\n- Fireworks (04:38 - 04:53)\n- David Bowie tribute concert (11:25 - 13:25)\n- Backstage tour VIP pass (13:06 - 14:51)\n- Korean BBQ food trucks (19:12 - 21:12)\n\nPriorities:\n- David Bowie tribute concert",
+      "optimalScore": 375,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Fireworks",
+            "start": 278,
+            "end": 293
+          },
+          {
+            "name": "David Bowie tribute concert",
+            "start": 685,
+            "end": 805
+          },
+          {
+            "name": "Korean BBQ food trucks",
+            "start": 1152,
+            "end": 1272
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 375,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 458,
+      "prompt": "Events:\n- Backstage tour VIP pass (02:24 - 02:39)\n- Avril Lavigne concert (05:57 - 06:57)\n- David Bowie tribute concert (07:58 - 08:58)\n- The Killers concert (10:54 - 12:09)\n- Silent disco party (13:01 - 14:46)\n- Jam session (14:27 - 15:12)\n- Korean BBQ food trucks (20:15 - 21:00)\n\nPriorities:\n- Backstage tour VIP pass\n- Silent disco party",
+      "optimalScore": 480,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Backstage tour VIP pass",
+            "start": 144,
+            "end": 159
+          },
+          {
+            "name": "Avril Lavigne concert",
+            "start": 357,
+            "end": 417
+          },
+          {
+            "name": "David Bowie tribute concert",
+            "start": 478,
+            "end": 538
+          },
+          {
+            "name": "The Killers concert",
+            "start": 654,
+            "end": 729
+          },
+          {
+            "name": "Silent disco party",
+            "start": 781,
+            "end": 886
+          },
+          {
+            "name": "Korean BBQ food trucks",
+            "start": 1215,
+            "end": 1260
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 480,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 469,
+      "prompt": "Events:\n- Group study for physics test (06:16 - 07:16)\n- Quantum computing guest talk (13:01 - 13:46)\n- Calculus lecture with Prof. Adams (13:10 - 14:25)\n- Chess with Daniel (14:49 - 15:34)\n- Meeting with Emma and Jake (15:14 - 15:59)\n\nPriorities:\n- Meeting with Emma and Jake\n- Calculus lecture with Prof. Adams",
+      "optimalScore": 300,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Group study for physics test",
+            "start": 376,
+            "end": 436
+          },
+          {
+            "name": "Calculus lecture with Prof. Adams",
+            "start": 790,
+            "end": 865
+          },
+          {
+            "name": "Meeting with Emma and Jake",
+            "start": 914,
+            "end": 959
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 300,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 470,
+      "prompt": "Events:\n- Web3 panel discussion (01:49 - 02:34)\n- Async Python talk (03:30 - 03:45)\n- Networking with engineers (08:37 - 10:37)\n- AI keynote (13:40 - 15:40)\n- 3D printing workshop (15:02 - 16:32)\n\nPriorities:\n- 3D printing workshop",
+      "optimalScore": 360,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Web3 panel discussion",
+            "start": 109,
+            "end": 154
+          },
+          {
+            "name": "Async Python talk",
+            "start": 210,
+            "end": 225
+          },
+          {
+            "name": "Networking with engineers",
+            "start": 517,
+            "end": 637
+          },
+          {
+            "name": "3D printing workshop",
+            "start": 902,
+            "end": 992
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 360,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 477,
+      "prompt": "Events:\n- Live coding on Rust (06:50 - 07:05)\n- Async Python talk (11:13 - 12:13)\n- Trying new VR headset (12:12 - 13:27)\n- Web3 panel discussion (13:16 - 14:46)\n- Drone building hackathon (18:51 - 20:06)\n\nPriorities:\n- Trying new VR headset",
+      "optimalScore": 240,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Live coding on Rust",
+            "start": 410,
+            "end": 425
+          },
+          {
+            "name": "Trying new VR headset",
+            "start": 732,
+            "end": 807
+          },
+          {
+            "name": "Drone building hackathon",
+            "start": 1131,
+            "end": 1206
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 240,
+        "ratio": 1
+      }
+    },
+    {
+      "rowIndex": 495,
+      "prompt": "Events:\n- Marketing standup on Zoom (02:30 - 04:00)\n- Preparing PTO handover (02:36 - 03:06)\n- Client call with Acme Corp (06:34 - 07:49)\n- Q1 revenue report writing (08:09 - 08:54)\n- Updating website content (11:50 - 12:20)\n- Brainstorming with Luke and Patrick (18:35 - 19:05)\n- Replying to emails (19:01 - 20:31)\n\nPriorities:\n- Client call with Acme Corp",
+      "optimalScore": 405,
+      "greedy": {
+        "schedule": [
+          {
+            "name": "Preparing PTO handover",
+            "start": 156,
+            "end": 186
+          },
+          {
+            "name": "Client call with Acme Corp",
+            "start": 394,
+            "end": 469
+          },
+          {
+            "name": "Q1 revenue report writing",
+            "start": 489,
+            "end": 534
+          },
+          {
+            "name": "Updating website content",
+            "start": 710,
+            "end": 740
+          },
+          {
+            "name": "Brainstorming with Luke and Patrick",
+            "start": 1115,
+            "end": 1145
+          }
+        ],
+        "valid": true,
+        "reason": null,
+        "score": 285,
+        "ratio": 0.7037
+      }
+    }
+  ]
+}

@@ -1,0 +1,3667 @@
+{
+  "ranAt": "2026-10-18T18:03:47.501Z",
+  "source": "google-places",
+  "options": {
+    "synthetic": false,
+    "runAi": true,
+    "retries": 2,
+    "cities": [
+      "Raleigh NC",
+      "Greensboro NC",
+      "Charlotte NC"
+    ],
+    "interests": [
+      "museum",
+      "park",
+      "cafe"
+    ],
+    "budget": "medium",
+    "hours": 8,
+    "candidates": 10
+  },
+  "summary": {
+    "greedyAvgPercent": 100,
+    "aiAvgPercent": 27.4,
+    "citiesWithNoValidAiOption": 2,
+    "aiRepairAvgPercent": 85.73,
+    "citiesNoValidAfterRepair": 0,
+    "citiesRescuedByRepair": 2,
+    "vsGreedy": {
+      "ai": {
+        "win": 0,
+        "tie": 0,
+        "loss": 3
+      },
+      "repair": {
+        "win": 0,
+        "tie": 1,
+        "loss": 2
+      }
+    }
+  },
+  "perCity": [
+    {
+      "city": "Raleigh NC",
+      "placeCount": 30,
+      "places": [
+        {
+          "id": "ChIJo_wdGWxfrIkRPvgSndgXAIk",
+          "name": "North Carolina Museum of Natural Sciences",
+          "types": [
+            "research_institute",
+            "tourist_attraction",
+            "museum",
+            "educational_institution",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJa2hvU9P1rIkRQaI7E_xzG4Q",
+          "name": "North Carolina Museum of Art",
+          "types": [
+            "art_museum",
+            "art_gallery",
+            "tourist_attraction",
+            "wedding_venue",
+            "museum",
+            "park",
+            "live_music_venue",
+            "event_venue",
+            "point_of_interest",
+            "service",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJabYXGWxfrIkRbhKO8ght9zM",
+          "name": "Living Conservatory",
+          "types": [
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJa7t9vm5frIkR62DgKHU_JQU",
+          "name": "Nature Research Center",
+          "types": [
+            "association_or_organization",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJZYGWAXJfrIkR7QlbwtfCFIs",
+          "name": "City of Raleigh Museum",
+          "types": [
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJn5ny-XJfrIkRLcjO926_fwc",
+          "name": "Artspace",
+          "types": [
+            "art_gallery",
+            "art_museum",
+            "tourist_attraction",
+            "museum",
+            "educational_institution",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJQ-TWbW1frIkRhsxjww62Wow",
+          "name": "Marbles Kids Museum",
+          "types": [
+            "movie_theater",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJFTEXv_z1rIkRsCPT5OsUo0M",
+          "name": "North Carolina Museum of Art West Building",
+          "types": [
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJ8U9pAJH1rIkRZc2G-A4kewI",
+          "name": "Gregg Museum of Art & Design",
+          "types": [
+            "art_museum",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJD6X0lXNfrIkRpv0cfxKTSg8",
+          "name": "Dr. M.T. Pope House Museum",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJdWMB44X1rIkR8x_gTt_Tobg",
+          "name": "Pullen Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJSVjAN39frIkRW9-Y_fI0q-4",
+          "name": "Dix Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJF1nRfeb0rIkRcOIaLLNq5jc",
+          "name": "Lake Johnson Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJR_TOeP9YrIkRqaNmjCsNn5E",
+          "name": "Shelley Lake Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJFS8QAQBfrIkRKP1DpzFKc1w",
+          "name": "Gipson Play Plaza",
+          "types": [
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJL7C1g7TwrIkRj8ymStBSWYI",
+          "name": "William B. Umstead State Park",
+          "types": [
+            "state_park",
+            "visitor_center",
+            "tourist_attraction",
+            "park",
+            "tourist_information_center",
+            "tour_agency",
+            "travel_agency",
+            "service",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJ5ciQtj5crIkRJBzVX8yMylI",
+          "name": "Anderson Point Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJY37B62P2rIkREvofVRY4khY",
+          "name": "Laurel Hills Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJQTOzlQtfrIkRs0g-GvebSzE",
+          "name": "John Chavis Memorial Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJjXCXHYbyrIkRapb5QVIAkTk",
+          "name": "Fred G. Bond Metro Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJ2-vhnMf1rIkRyiffanx3hv4",
+          "name": "Lucky Tree",
+          "types": [
+            "coffee_shop",
+            "gift_shop",
+            "cafe",
+            "tea_house",
+            "vegan_restaurant",
+            "vegetarian_restaurant",
+            "live_music_venue",
+            "event_venue",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJMXNdJSpfrIkRBU0d8coKCYo",
+          "name": "Little Native Coffee Co.",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJB8bdUHJfrIkRkvv5z6PSWRY",
+          "name": "Sir Walter Coffee",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJcaWxtqBfrIkRncdkEPID6hs",
+          "name": "The Optimist Raleigh",
+          "types": [
+            "coffee_shop",
+            "wine_bar",
+            "brunch_restaurant",
+            "breakfast_restaurant",
+            "cafe",
+            "event_venue",
+            "bar",
+            "food_store",
+            "store",
+            "wholesaler",
+            "service",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "ChIJxfyq1kRfrIkRtvfEP8Hyku8",
+          "name": "Heirloom",
+          "types": [
+            "asian_fusion_restaurant",
+            "cocktail_bar",
+            "fusion_restaurant",
+            "breakfast_restaurant",
+            "coffee_shop",
+            "cafe",
+            "taiwanese_restaurant",
+            "asian_restaurant",
+            "tea_house",
+            "vegetarian_restaurant",
+            "liquor_store",
+            "bar",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJuRFPf6j3rIkRAbhQUZkb08g",
+          "name": "The Optimist Raleigh",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "ChIJu5Og8331rIkRNBCumgPHJsM",
+          "name": "Haraz Coffee House",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJqdRrExdfrIkRDqoHlULclV0",
+          "name": "Iris Coffee Lab",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJu9UJ9G1frIkRBFMSAv90_xY",
+          "name": "Morning Times",
+          "types": [
+            "cafe",
+            "coffee_shop",
+            "food_store",
+            "store",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJm5AHsmL1rIkR34asISzTH6I",
+          "name": "The Bliss Cafe",
+          "types": [
+            "cafe",
+            "tea_house",
+            "ice_cream_shop",
+            "dessert_shop",
+            "confectionery",
+            "food_store",
+            "store",
+            "point_of_interest",
+            "food",
+            "establishment"
+          ],
+          "rating": 4.7
+        }
+      ],
+      "events": [
+        {
+          "name": "North Carolina Museum of Art",
+          "start": "09:00",
+          "end": "10:30",
+          "priority": true
+        },
+        {
+          "name": "North Carolina Museum of Art West Building",
+          "start": "09:45",
+          "end": "11:45",
+          "priority": true
+        },
+        {
+          "name": "North Carolina Museum of Natural Sciences",
+          "start": "11:03",
+          "end": "12:43",
+          "priority": true
+        },
+        {
+          "name": "Marbles Kids Museum",
+          "start": "11:38",
+          "end": "13:18",
+          "priority": true
+        },
+        {
+          "name": "Dr. M.T. Pope House Museum",
+          "start": "12:58",
+          "end": "14:58",
+          "priority": false
+        },
+        {
+          "name": "William B. Umstead State Park",
+          "start": "14:16",
+          "end": "15:56",
+          "priority": false
+        },
+        {
+          "name": "Laurel Hills Park",
+          "start": "15:36",
+          "end": "17:00",
+          "priority": false
+        },
+        {
+          "name": "Fred G. Bond Metro Park",
+          "start": "16:21",
+          "end": "17:00",
+          "priority": false
+        }
+      ],
+      "optimalScore": 584,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 584,
+        "ratio": 1
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 2,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Art & Nature Exploration",
+                "rationale": "Maximizes visits to the priority museums for a rich artistic and educational experience.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "North Carolina Museum of Natural Sciences",
+                    "start": "11:03",
+                    "end": "12:43"
+                  },
+                  {
+                    "name": "Marbles Kids Museum",
+                    "start": "11:38",
+                    "end": "13:18"
+                  },
+                  {
+                    "name": "William B. Umstead State Park",
+                    "start": "14:16",
+                    "end": "15:56"
+                  }
+                ]
+              },
+              {
+                "label": "Cultural & Family Fun",
+                "rationale": "Focuses on a blend of cultural sites and family-friendly activities to engage all ages.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Marbles Kids Museum",
+                    "start": "11:38",
+                    "end": "13:18"
+                  },
+                  {
+                    "name": "North Carolina Museum of Natural Sciences",
+                    "start": "13:30",
+                    "end": "15:06"
+                  },
+                  {
+                    "name": "Laurel Hills Park",
+                    "start": "15:36",
+                    "end": "17:00"
+                  }
+                ]
+              },
+              {
+                "label": "Artistic Day & Park Relaxation",
+                "rationale": "Balances important museums with a serene park experience for ultimate relaxation.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art West Building",
+                    "start": "09:45",
+                    "end": "11:45"
+                  },
+                  {
+                    "name": "North Carolina Museum of Natural Sciences",
+                    "start": "11:03",
+                    "end": "12:43"
+                  },
+                  {
+                    "name": "Dr. M.T. Pope House Museum",
+                    "start": "12:58",
+                    "end": "14:58"
+                  },
+                  {
+                    "name": "Fred G. Bond Metro Park",
+                    "start": "16:21",
+                    "end": "17:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Art & Nature Exploration",
+                "valid": false,
+                "reason": "two or more events overlap: \"North Carolina Museum of Natural Sciences\" (11:03-12:43) overlaps \"Marbles Kids Museum\" (11:38-13:18)",
+                "score": 0
+              },
+              {
+                "label": "Cultural & Family Fun",
+                "valid": false,
+                "reason": "\"North Carolina Museum of Natural Sciences\" at 13:30-15:06 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Artistic Day & Park Relaxation",
+                "valid": false,
+                "reason": "two or more events overlap: \"North Carolina Museum of Art West Building\" (09:45-11:45) overlaps \"North Carolina Museum of Natural Sciences\" (11:03-12:43)",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Immersion & Nature",
+                "rationale": "Focuses on experiencing top museums with a relaxing park visit to recharge.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "North Carolina Museum of Natural Sciences",
+                    "start": "11:03",
+                    "end": "12:43"
+                  },
+                  {
+                    "name": "William B. Umstead State Park",
+                    "start": "14:16",
+                    "end": "15:56"
+                  }
+                ]
+              },
+              {
+                "label": "Family Fun & Learning",
+                "rationale": "Combines engaging museums with a focus on fun for families, ensuring diverse activities.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Marbles Kids Museum",
+                    "start": "11:38",
+                    "end": "13:18"
+                  },
+                  {
+                    "name": "Fred G. Bond Metro Park",
+                    "start": "16:21",
+                    "end": "17:00"
+                  }
+                ]
+              },
+              {
+                "label": "Art, History & Leisure",
+                "rationale": "Mixes the artistic experience of museums with interesting history and lovely parks.",
+                "schedule": [
+                  {
+                    "name": "North Carolina Museum of Art West Building",
+                    "start": "09:45",
+                    "end": "11:45"
+                  },
+                  {
+                    "name": "Dr. M.T. Pope House Museum",
+                    "start": "12:58",
+                    "end": "14:58"
+                  },
+                  {
+                    "name": "Laurel Hills Park",
+                    "start": "15:36",
+                    "end": "17:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Immersion & Nature",
+                "valid": true,
+                "reason": null,
+                "score": 480
+              },
+              {
+                "label": "Family Fun & Learning",
+                "valid": true,
+                "reason": null,
+                "score": 419
+              },
+              {
+                "label": "Art, History & Leisure",
+                "valid": true,
+                "reason": null,
+                "score": 444
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Cultural Immersion & Nature",
+            "rationale": "Focuses on experiencing top museums with a relaxing park visit to recharge.",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "North Carolina Museum of Natural Sciences",
+                "start": "11:03",
+                "end": "12:43"
+              },
+              {
+                "name": "William B. Umstead State Park",
+                "start": "14:16",
+                "end": "15:56"
+              }
+            ]
+          },
+          {
+            "label": "Family Fun & Learning",
+            "rationale": "Combines engaging museums with a focus on fun for families, ensuring diverse activities.",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "Marbles Kids Museum",
+                "start": "11:38",
+                "end": "13:18"
+              },
+              {
+                "name": "Fred G. Bond Metro Park",
+                "start": "16:21",
+                "end": "17:00"
+              }
+            ]
+          },
+          {
+            "label": "Art, History & Leisure",
+            "rationale": "Mixes the artistic experience of museums with interesting history and lovely parks.",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art West Building",
+                "start": "09:45",
+                "end": "11:45"
+              },
+              {
+                "name": "Dr. M.T. Pope House Museum",
+                "start": "12:58",
+                "end": "14:58"
+              },
+              {
+                "name": "Laurel Hills Park",
+                "start": "15:36",
+                "end": "17:00"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Cultural Immersion & Nature",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "North Carolina Museum of Natural Sciences",
+                "start": "11:03",
+                "end": "12:43"
+              },
+              {
+                "name": "William B. Umstead State Park",
+                "start": "14:16",
+                "end": "15:56"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 480
+          },
+          {
+            "label": "Family Fun & Learning",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "Marbles Kids Museum",
+                "start": "11:38",
+                "end": "13:18"
+              },
+              {
+                "name": "Fred G. Bond Metro Park",
+                "start": "16:21",
+                "end": "17:00"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 419
+          },
+          {
+            "label": "Art, History & Leisure",
+            "schedule": [
+              {
+                "name": "North Carolina Museum of Art West Building",
+                "start": "09:45",
+                "end": "11:45"
+              },
+              {
+                "name": "Dr. M.T. Pope House Museum",
+                "start": "12:58",
+                "end": "14:58"
+              },
+              {
+                "name": "Laurel Hills Park",
+                "start": "15:36",
+                "end": "17:00"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 444
+          }
+        ],
+        "validOptionCount": 3,
+        "bestValidScore": 480,
+        "ratio": 0.8219,
+        "hadNoValidOption": false,
+        "repair": {
+          "options": [
+            {
+              "label": "Art & Nature Exploration",
+              "rationale": "Maximizes visits to the priority museums for a rich artistic and educational experience.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art",
+                  "start": "09:00",
+                  "end": "10:30"
+                },
+                {
+                  "name": "North Carolina Museum of Natural Sciences",
+                  "start": "11:03",
+                  "end": "12:43"
+                },
+                {
+                  "name": "William B. Umstead State Park",
+                  "start": "14:16",
+                  "end": "15:56"
+                }
+              ],
+              "valid": true,
+              "score": 480,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"North Carolina Museum of Natural Sciences\" (11:03-12:43) overlaps \"Marbles Kids Museum\" (11:38-13:18)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Marbles Kids Museum",
+                  "at": "11:38-13:18"
+                }
+              ]
+            },
+            {
+              "label": "Cultural & Family Fun",
+              "rationale": "Focuses on a blend of cultural sites and family-friendly activities to engage all ages.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art",
+                  "start": "09:00",
+                  "end": "10:30"
+                },
+                {
+                  "name": "North Carolina Museum of Natural Sciences",
+                  "start": "11:03",
+                  "end": "12:43"
+                },
+                {
+                  "name": "Laurel Hills Park",
+                  "start": "15:36",
+                  "end": "17:00"
+                }
+              ],
+              "valid": true,
+              "score": 464,
+              "wasInvalid": true,
+              "beforeReason": "\"North Carolina Museum of Natural Sciences\" at 13:30-15:06 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "North Carolina Museum of Natural Sciences",
+                  "from": "13:30-15:06",
+                  "to": "11:03-12:43"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Marbles Kids Museum",
+                  "at": "11:38-13:18"
+                }
+              ]
+            },
+            {
+              "label": "Artistic Day & Park Relaxation",
+              "rationale": "Balances important museums with a serene park experience for ultimate relaxation.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art West Building",
+                  "start": "09:45",
+                  "end": "11:45"
+                },
+                {
+                  "name": "Dr. M.T. Pope House Museum",
+                  "start": "12:58",
+                  "end": "14:58"
+                },
+                {
+                  "name": "Fred G. Bond Metro Park",
+                  "start": "16:21",
+                  "end": "17:00"
+                }
+              ],
+              "valid": true,
+              "score": 399,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"North Carolina Museum of Art West Building\" (09:45-11:45) overlaps \"North Carolina Museum of Natural Sciences\" (11:03-12:43)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "North Carolina Museum of Natural Sciences",
+                  "at": "11:03-12:43"
+                }
+              ]
+            },
+            {
+              "label": "Cultural Immersion & Nature",
+              "rationale": "Focuses on experiencing top museums with a relaxing park visit to recharge.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art",
+                  "start": "09:00",
+                  "end": "10:30"
+                },
+                {
+                  "name": "North Carolina Museum of Natural Sciences",
+                  "start": "11:03",
+                  "end": "12:43"
+                },
+                {
+                  "name": "William B. Umstead State Park",
+                  "start": "14:16",
+                  "end": "15:56"
+                }
+              ],
+              "valid": true,
+              "score": 480,
+              "wasInvalid": false,
+              "beforeReason": null,
+              "actions": []
+            },
+            {
+              "label": "Family Fun & Learning",
+              "rationale": "Combines engaging museums with a focus on fun for families, ensuring diverse activities.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art",
+                  "start": "09:00",
+                  "end": "10:30"
+                },
+                {
+                  "name": "Marbles Kids Museum",
+                  "start": "11:38",
+                  "end": "13:18"
+                },
+                {
+                  "name": "Fred G. Bond Metro Park",
+                  "start": "16:21",
+                  "end": "17:00"
+                }
+              ],
+              "valid": true,
+              "score": 419,
+              "wasInvalid": false,
+              "beforeReason": null,
+              "actions": []
+            },
+            {
+              "label": "Art, History & Leisure",
+              "rationale": "Mixes the artistic experience of museums with interesting history and lovely parks.",
+              "schedule": [
+                {
+                  "name": "North Carolina Museum of Art West Building",
+                  "start": "09:45",
+                  "end": "11:45"
+                },
+                {
+                  "name": "Dr. M.T. Pope House Museum",
+                  "start": "12:58",
+                  "end": "14:58"
+                },
+                {
+                  "name": "Laurel Hills Park",
+                  "start": "15:36",
+                  "end": "17:00"
+                }
+              ],
+              "valid": true,
+              "score": 444,
+              "wasInvalid": false,
+              "beforeReason": null,
+              "actions": []
+            }
+          ],
+          "bestScore": 480,
+          "ratio": 0.8219,
+          "hadNoValidOption": false
+        }
+      }
+    },
+    {
+      "city": "Greensboro NC",
+      "placeCount": 30,
+      "places": [
+        {
+          "id": "ChIJ_cKS0ycZU4gRoZ8Q039B7RE",
+          "name": "Greensboro History Museum",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "history_museum",
+            "non_profit_organization",
+            "association_or_organization",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJb_VL4iocU4gRch4-zqTVEoo",
+          "name": "Greensboro Science Center",
+          "types": [
+            "zoo",
+            "aquarium",
+            "tourist_attraction",
+            "non_profit_organization",
+            "association_or_organization",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJXa2u5ycZU4gRcsgKO-B9uF0",
+          "name": "Miriam P. Brenner Children's Museum",
+          "types": [
+            "tourist_attraction",
+            "garden",
+            "educational_institution",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJCdCSBiYZU4gRpAhAJekNjpA",
+          "name": "International Civil Rights Center & Museum",
+          "types": [
+            "history_museum",
+            "historical_landmark",
+            "tourist_attraction",
+            "historical_place",
+            "event_venue",
+            "museum",
+            "service",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJNxq9x9AfU4gRqrqHm8WMVoc",
+          "name": "Greensboro Pinball Museum",
+          "types": [
+            "video_arcade",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJjxdQ3z8ZU4gRSoweNWXR9_M",
+          "name": "Weatherspoon Art Museum",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJV7BhPLgJU4gRmHb1W2vd5mc",
+          "name": "Nido & Mariana Qubein Children’s Museum",
+          "types": [
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJ3TzZSyMZU4gRl-JMCUc-Vp4",
+          "name": "Blandwood Museum",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "garden",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJq53hRCYZU4gRD5Mg9jDBbjE",
+          "name": "Greensboro Cultural Center",
+          "types": [
+            "cultural_center",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJq53hRCYZU4gRVbS5KC6msdo",
+          "name": "GreenHill Center for North Carolina Art",
+          "types": [
+            "event_venue",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJZ_6VNyYZU4gRCD1uxI4k3aw",
+          "name": "LeBauer Park @ Greensboro Downtown Parks, Inc.",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJv9NR2CUcU4gRKm6QhQ4NL54",
+          "name": "City of Greensboro - Country Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJw9SFBJAYU4gR0L_Re1GzRpY",
+          "name": "Barber Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJ9Vh1byYZU4gR_hOTROhVSOY",
+          "name": "Center City Park @ Greensboro Downtown Parks, Inc.",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJHaDQ7rkhU4gR_CRD68-ev-g",
+          "name": "Keeley Park",
+          "types": [
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJM0P_ZwgcU4gRwVHa4myHYhw",
+          "name": "Tanger Family Bicentennial Garden",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJad618pkYU4gRQYTsbGmMFK0",
+          "name": "Gateway Gardens",
+          "types": [
+            "garden",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJ4ZvNF24aU4gRwStNbfAXioM",
+          "name": "Hester Park",
+          "types": [
+            "city_park",
+            "tourist_attraction",
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJ9_FQKk8ZU4gRT6eXOHayvQs",
+          "name": "Lake Daniel Park",
+          "types": [
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJTYnzvSsZU4gRJm4KtZnzJhM",
+          "name": "Fisher Park",
+          "types": [
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJv74CQHgfU4gRxVbFbNNSn8k",
+          "name": "SIP LAB",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJkzL4rXcZU4gRrLTQ2_yYEVA",
+          "name": "Awoo Coffee",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJmc3RlDkZU4gR6OyZZZmlaq8",
+          "name": "Northern Roots Coffeehouse",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJW-PfEi0ZU4gRvc0TLtxLCeU",
+          "name": "Union Coffee",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJdzSrJ0cZU4gRwIGRqhf8eoY",
+          "name": "Arrowhead Coffee",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJE9jDhn4ZU4gRANKAM7YBmHo",
+          "name": "Borough Coffee at Double Oaks",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJV6eH3l8ZU4gRwQbap0VWdV8",
+          "name": "Common Grounds",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJz69RYXobU4gRu4x57u6-iHw",
+          "name": "718 Cafecito",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJb-lQBQYZU4gRZ1WFm1MV05s",
+          "name": "Back Table",
+          "types": [
+            "cafe",
+            "coffee_shop",
+            "event_venue",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJwW5MJ80ZU4gRJgIoQ09ffqE",
+          "name": "Mood Up Coffee + Matcha",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "coffee_stand",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        }
+      ],
+      "events": [
+        {
+          "name": "Nido & Mariana Qubein Children’s Museum",
+          "start": "09:00",
+          "end": "11:00",
+          "priority": true
+        },
+        {
+          "name": "SIP LAB",
+          "start": "10:36",
+          "end": "11:21",
+          "priority": true
+        },
+        {
+          "name": "Awoo Coffee",
+          "start": "10:59",
+          "end": "11:44",
+          "priority": true
+        },
+        {
+          "name": "Borough Coffee at Double Oaks",
+          "start": "11:14",
+          "end": "11:59",
+          "priority": true
+        },
+        {
+          "name": "Greensboro History Museum",
+          "start": "11:29",
+          "end": "13:29",
+          "priority": false
+        },
+        {
+          "name": "Tanger Family Bicentennial Garden",
+          "start": "12:11",
+          "end": "13:41",
+          "priority": false
+        },
+        {
+          "name": "Union Coffee",
+          "start": "13:23",
+          "end": "14:08",
+          "priority": false
+        },
+        {
+          "name": "Arrowhead Coffee",
+          "start": "13:38",
+          "end": "14:23",
+          "priority": false
+        },
+        {
+          "name": "718 Cafecito",
+          "start": "13:54",
+          "end": "14:39",
+          "priority": false
+        },
+        {
+          "name": "Back Table",
+          "start": "14:30",
+          "end": "15:15",
+          "priority": false
+        }
+      ],
+      "optimalScore": 465,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 465,
+        "ratio": 1
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 3,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Balanced Blend of Culture and Coffee",
+                "rationale": "Combines family-oriented activities with energizing coffee breaks for a well-rounded day.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Borough Coffee at Double Oaks",
+                    "start": "11:14",
+                    "end": "11:59"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Arrowhead Coffee",
+                    "start": "13:38",
+                    "end": "14:23"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              },
+              {
+                "label": "Coffee & Culture Highlights",
+                "rationale": "Focuses on maximizing priority coffee stops with a touch of local history.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "SIP LAB",
+                    "start": "10:36",
+                    "end": "11:21"
+                  },
+                  {
+                    "name": "Awoo Coffee",
+                    "start": "10:59",
+                    "end": "11:44"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Union Coffee",
+                    "start": "13:23",
+                    "end": "14:08"
+                  }
+                ]
+              },
+              {
+                "label": "Coffee-Hopping Adventure",
+                "rationale": "Maximizes coffee experiences while allowing for several shorter stops.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Awoo Coffee",
+                    "start": "10:59",
+                    "end": "11:44"
+                  },
+                  {
+                    "name": "Borough Coffee at Double Oaks",
+                    "start": "11:14",
+                    "end": "11:59"
+                  },
+                  {
+                    "name": "Tanger Family Bicentennial Garden",
+                    "start": "12:11",
+                    "end": "13:41"
+                  },
+                  {
+                    "name": "718 Cafecito",
+                    "start": "13:54",
+                    "end": "14:39"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Balanced Blend of Culture and Coffee",
+                "valid": false,
+                "reason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+                "score": 0
+              },
+              {
+                "label": "Coffee & Culture Highlights",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+                "score": 0
+              },
+              {
+                "label": "Coffee-Hopping Adventure",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Family Fun and Local Brews",
+                "rationale": "Focuses on children's activities and essential local coffee spots for a memorable day.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Borough Coffee at Double Oaks",
+                    "start": "11:14",
+                    "end": "11:59"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Union Coffee",
+                    "start": "13:23",
+                    "end": "14:08"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              },
+              {
+                "label": "Caffeinated Culture Tour",
+                "rationale": "Emphasizes coffee experiences along with significant local heritage attractions.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "SIP LAB",
+                    "start": "10:36",
+                    "end": "11:21"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Arrowhead Coffee",
+                    "start": "13:38",
+                    "end": "14:23"
+                  }
+                ]
+              },
+              {
+                "label": "Garden Stroll and Coffee Breaks",
+                "rationale": "Combines relaxing garden time with coffee breaks, perfect for enjoying the outdoors.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Awoo Coffee",
+                    "start": "10:59",
+                    "end": "11:44"
+                  },
+                  {
+                    "name": "Tanger Family Bicentennial Garden",
+                    "start": "12:11",
+                    "end": "13:41"
+                  },
+                  {
+                    "name": "718 Cafecito",
+                    "start": "13:54",
+                    "end": "14:39"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Family Fun and Local Brews",
+                "valid": false,
+                "reason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+                "score": 0
+              },
+              {
+                "label": "Caffeinated Culture Tour",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+                "score": 0
+              },
+              {
+                "label": "Garden Stroll and Coffee Breaks",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Art and Coffee Exploration",
+                "rationale": "This schedule focuses on enjoying coffee while allowing time for a cultural experience without overlaps.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "SIP LAB",
+                    "start": "10:36",
+                    "end": "11:21"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Union Coffee",
+                    "start": "13:23",
+                    "end": "14:08"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              },
+              {
+                "label": "Caffeine and Nature",
+                "rationale": "Highlights beautiful outdoor attractions and energizing coffee stops throughout the day.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Awoo Coffee",
+                    "start": "10:59",
+                    "end": "11:44"
+                  },
+                  {
+                    "name": "Tanger Family Bicentennial Garden",
+                    "start": "12:11",
+                    "end": "13:41"
+                  },
+                  {
+                    "name": "718 Cafecito",
+                    "start": "13:54",
+                    "end": "14:39"
+                  },
+                  {
+                    "name": "Back Table",
+                    "start": "14:30",
+                    "end": "15:15"
+                  }
+                ]
+              },
+              {
+                "label": "Coffee-Hopping History Tour",
+                "rationale": "Focusing on unique coffee experiences while visiting significant local historical sites.",
+                "schedule": [
+                  {
+                    "name": "Nido & Mariana Qubein Children’s Museum",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Borough Coffee at Double Oaks",
+                    "start": "11:14",
+                    "end": "11:59"
+                  },
+                  {
+                    "name": "Greensboro History Museum",
+                    "start": "11:29",
+                    "end": "13:29"
+                  },
+                  {
+                    "name": "Arrowhead Coffee",
+                    "start": "13:38",
+                    "end": "14:23"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Art and Coffee Exploration",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+                "score": 0
+              },
+              {
+                "label": "Caffeine and Nature",
+                "valid": false,
+                "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+                "score": 0
+              },
+              {
+                "label": "Coffee-Hopping History Tour",
+                "valid": false,
+                "reason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+                "score": 0
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Art and Coffee Exploration",
+            "rationale": "This schedule focuses on enjoying coffee while allowing time for a cultural experience without overlaps.",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "SIP LAB",
+                "start": "10:36",
+                "end": "11:21"
+              },
+              {
+                "name": "Greensboro History Museum",
+                "start": "11:29",
+                "end": "13:29"
+              },
+              {
+                "name": "Union Coffee",
+                "start": "13:23",
+                "end": "14:08"
+              },
+              {
+                "name": "Back Table",
+                "start": "14:30",
+                "end": "15:15"
+              }
+            ]
+          },
+          {
+            "label": "Caffeine and Nature",
+            "rationale": "Highlights beautiful outdoor attractions and energizing coffee stops throughout the day.",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Awoo Coffee",
+                "start": "10:59",
+                "end": "11:44"
+              },
+              {
+                "name": "Tanger Family Bicentennial Garden",
+                "start": "12:11",
+                "end": "13:41"
+              },
+              {
+                "name": "718 Cafecito",
+                "start": "13:54",
+                "end": "14:39"
+              },
+              {
+                "name": "Back Table",
+                "start": "14:30",
+                "end": "15:15"
+              }
+            ]
+          },
+          {
+            "label": "Coffee-Hopping History Tour",
+            "rationale": "Focusing on unique coffee experiences while visiting significant local historical sites.",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Borough Coffee at Double Oaks",
+                "start": "11:14",
+                "end": "11:59"
+              },
+              {
+                "name": "Greensboro History Museum",
+                "start": "11:29",
+                "end": "13:29"
+              },
+              {
+                "name": "Arrowhead Coffee",
+                "start": "13:38",
+                "end": "14:23"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Art and Coffee Exploration",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "SIP LAB",
+                "start": "10:36",
+                "end": "11:21"
+              },
+              {
+                "name": "Greensboro History Museum",
+                "start": "11:29",
+                "end": "13:29"
+              },
+              {
+                "name": "Union Coffee",
+                "start": "13:23",
+                "end": "14:08"
+              },
+              {
+                "name": "Back Table",
+                "start": "14:30",
+                "end": "15:15"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+            "score": 0
+          },
+          {
+            "label": "Caffeine and Nature",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Awoo Coffee",
+                "start": "10:59",
+                "end": "11:44"
+              },
+              {
+                "name": "Tanger Family Bicentennial Garden",
+                "start": "12:11",
+                "end": "13:41"
+              },
+              {
+                "name": "718 Cafecito",
+                "start": "13:54",
+                "end": "14:39"
+              },
+              {
+                "name": "Back Table",
+                "start": "14:30",
+                "end": "15:15"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+            "score": 0
+          },
+          {
+            "label": "Coffee-Hopping History Tour",
+            "schedule": [
+              {
+                "name": "Nido & Mariana Qubein Children’s Museum",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Borough Coffee at Double Oaks",
+                "start": "11:14",
+                "end": "11:59"
+              },
+              {
+                "name": "Greensboro History Museum",
+                "start": "11:29",
+                "end": "13:29"
+              },
+              {
+                "name": "Arrowhead Coffee",
+                "start": "13:38",
+                "end": "14:23"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+            "score": 0
+          }
+        ],
+        "validOptionCount": 0,
+        "bestValidScore": 0,
+        "ratio": 0,
+        "hadNoValidOption": true,
+        "repair": {
+          "options": [
+            {
+              "label": "Balanced Blend of Culture and Coffee",
+              "rationale": "Combines family-oriented activities with energizing coffee breaks for a well-rounded day.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Greensboro History Museum",
+                  "start": "11:29",
+                  "end": "13:29"
+                },
+                {
+                  "name": "Arrowhead Coffee",
+                  "start": "13:38",
+                  "end": "14:23"
+                },
+                {
+                  "name": "Back Table",
+                  "start": "14:30",
+                  "end": "15:15"
+                }
+              ],
+              "valid": true,
+              "score": 450,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Borough Coffee at Double Oaks",
+                  "at": "11:14-11:59"
+                }
+              ]
+            },
+            {
+              "label": "Coffee & Culture Highlights",
+              "rationale": "Focuses on maximizing priority coffee stops with a touch of local history.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Greensboro History Museum",
+                  "start": "11:29",
+                  "end": "13:29"
+                }
+              ],
+              "valid": true,
+              "score": 360,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "SIP LAB",
+                  "at": "10:36-11:21"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Awoo Coffee",
+                  "at": "10:59-11:44"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Union Coffee",
+                  "at": "13:23-14:08"
+                }
+              ]
+            },
+            {
+              "label": "Coffee-Hopping Adventure",
+              "rationale": "Maximizes coffee experiences while allowing for several shorter stops.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Borough Coffee at Double Oaks",
+                  "start": "11:14",
+                  "end": "11:59"
+                },
+                {
+                  "name": "Tanger Family Bicentennial Garden",
+                  "start": "12:11",
+                  "end": "13:41"
+                },
+                {
+                  "name": "718 Cafecito",
+                  "start": "13:54",
+                  "end": "14:39"
+                }
+              ],
+              "valid": true,
+              "score": 465,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Awoo Coffee",
+                  "at": "10:59-11:44"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Back Table",
+                  "at": "14:30-15:15"
+                }
+              ]
+            },
+            {
+              "label": "Family Fun and Local Brews",
+              "rationale": "Focuses on children's activities and essential local coffee spots for a memorable day.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Borough Coffee at Double Oaks",
+                  "start": "11:14",
+                  "end": "11:59"
+                },
+                {
+                  "name": "Union Coffee",
+                  "start": "13:23",
+                  "end": "14:08"
+                },
+                {
+                  "name": "Back Table",
+                  "start": "14:30",
+                  "end": "15:15"
+                }
+              ],
+              "valid": true,
+              "score": 420,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Greensboro History Museum",
+                  "at": "11:29-13:29"
+                }
+              ]
+            },
+            {
+              "label": "Caffeinated Culture Tour",
+              "rationale": "Emphasizes coffee experiences along with significant local heritage attractions.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Greensboro History Museum",
+                  "start": "11:29",
+                  "end": "13:29"
+                },
+                {
+                  "name": "Arrowhead Coffee",
+                  "start": "13:38",
+                  "end": "14:23"
+                }
+              ],
+              "valid": true,
+              "score": 405,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "SIP LAB",
+                  "at": "10:36-11:21"
+                }
+              ]
+            },
+            {
+              "label": "Garden Stroll and Coffee Breaks",
+              "rationale": "Combines relaxing garden time with coffee breaks, perfect for enjoying the outdoors.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Tanger Family Bicentennial Garden",
+                  "start": "12:11",
+                  "end": "13:41"
+                },
+                {
+                  "name": "718 Cafecito",
+                  "start": "13:54",
+                  "end": "14:39"
+                }
+              ],
+              "valid": true,
+              "score": 375,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Awoo Coffee",
+                  "at": "10:59-11:44"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Back Table",
+                  "at": "14:30-15:15"
+                }
+              ]
+            },
+            {
+              "label": "Art and Coffee Exploration",
+              "rationale": "This schedule focuses on enjoying coffee while allowing time for a cultural experience without overlaps.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Greensboro History Museum",
+                  "start": "11:29",
+                  "end": "13:29"
+                },
+                {
+                  "name": "Back Table",
+                  "start": "14:30",
+                  "end": "15:15"
+                }
+              ],
+              "valid": true,
+              "score": 405,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"SIP LAB\" (10:36-11:21)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "SIP LAB",
+                  "at": "10:36-11:21"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Union Coffee",
+                  "at": "13:23-14:08"
+                }
+              ]
+            },
+            {
+              "label": "Caffeine and Nature",
+              "rationale": "Highlights beautiful outdoor attractions and energizing coffee stops throughout the day.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Tanger Family Bicentennial Garden",
+                  "start": "12:11",
+                  "end": "13:41"
+                },
+                {
+                  "name": "718 Cafecito",
+                  "start": "13:54",
+                  "end": "14:39"
+                }
+              ],
+              "valid": true,
+              "score": 375,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Nido & Mariana Qubein Children’s Museum\" (09:00-11:00) overlaps \"Awoo Coffee\" (10:59-11:44)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Awoo Coffee",
+                  "at": "10:59-11:44"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Back Table",
+                  "at": "14:30-15:15"
+                }
+              ]
+            },
+            {
+              "label": "Coffee-Hopping History Tour",
+              "rationale": "Focusing on unique coffee experiences while visiting significant local historical sites.",
+              "schedule": [
+                {
+                  "name": "Nido & Mariana Qubein Children’s Museum",
+                  "start": "09:00",
+                  "end": "11:00"
+                },
+                {
+                  "name": "Greensboro History Museum",
+                  "start": "11:29",
+                  "end": "13:29"
+                },
+                {
+                  "name": "Arrowhead Coffee",
+                  "start": "13:38",
+                  "end": "14:23"
+                }
+              ],
+              "valid": true,
+              "score": 405,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Borough Coffee at Double Oaks\" (11:14-11:59) overlaps \"Greensboro History Museum\" (11:29-13:29)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Borough Coffee at Double Oaks",
+                  "at": "11:14-11:59"
+                }
+              ]
+            }
+          ],
+          "bestScore": 465,
+          "ratio": 1,
+          "hadNoValidOption": false
+        }
+      }
+    },
+    {
+      "city": "Charlotte NC",
+      "placeCount": 30,
+      "places": [
+        {
+          "id": "ChIJZ-LB1SSgVogR8_pkSkmqXHg",
+          "name": "Discovery Place Science",
+          "types": [
+            "aquarium",
+            "indoor_playground",
+            "planetarium",
+            "tourist_attraction",
+            "playground",
+            "movie_theater",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJE-TlUD2hVogRv5ypyMLSec8",
+          "name": "Museum of Illusions Charlotte",
+          "types": [
+            "tourist_attraction",
+            "art_gallery",
+            "art_museum",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.5
+        },
+        {
+          "id": "ChIJ6QA5TymgVogRwfAmE5zenDE",
+          "name": "Mint Museum Uptown",
+          "types": [
+            "art_museum",
+            "tourist_attraction",
+            "association_or_organization",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJvSzQNSmgVogRzpZ1TvxDFz0",
+          "name": "Bechtler Museum of Modern Art",
+          "types": [
+            "tourist_attraction",
+            "art_museum",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "ChIJjbGWF-GfVogRscYzpV0gZkE",
+          "name": "Mint Museum Randolph",
+          "types": [
+            "art_museum",
+            "tourist_attraction",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJSayyQimgVogR9hN6UKVVbnc",
+          "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+          "types": [
+            "museum",
+            "community_center",
+            "tourist_attraction",
+            "art_gallery",
+            "non_profit_organization",
+            "performing_arts_theater",
+            "event_venue",
+            "association_or_organization",
+            "service",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJR9DIgashVIgRepwqOBH_BMM",
+          "name": "Titanic: The Exhibition - Charlotte",
+          "types": [
+            "tourist_attraction",
+            "history_museum",
+            "museum",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJn1oDZ5uYVogRAHgSC7AHj9Y",
+          "name": "Sullenberger Aviation Museum",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJWTtp6J8fVIgRN_yZXlqUkTw",
+          "name": "Charlotte Museum of History",
+          "types": [
+            "museum",
+            "historical_landmark",
+            "tourist_attraction",
+            "history_museum",
+            "historical_place",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "ChIJyWIVfyigVogR6c37kTbkXa4",
+          "name": "NASCAR Hall of Fame",
+          "types": [
+            "museum",
+            "tourist_attraction",
+            "auditorium",
+            "event_venue",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJJ8WXmaSfVogRHKtq9R9COPk",
+          "name": "Freedom Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJqxRTjC6gVogRVW3L0xQUAk0",
+          "name": "Romare Bearden Park",
+          "types": [
+            "city_park",
+            "tourist_attraction",
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJBYzQOkoZVIgRGg1kwEglSzg",
+          "name": "Reedy Creek Nature Preserve",
+          "types": [
+            "park",
+            "nature_preserve",
+            "hiking_area",
+            "sports_activity_location",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJQ0GBFyOgVogR9imQgY6Cv30",
+          "name": "First Ward Park",
+          "types": [
+            "city_park",
+            "tourist_attraction",
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJQ1j07SifVogR4fpwsHm5wo0",
+          "name": "Park Road Park",
+          "types": [
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJ28nXRCegVogRDyCXTQ7XoHg",
+          "name": "Marshall Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "ChIJYZHiVRMhVIgRrDBcG7QZ8eA",
+          "name": "McAlpine Creek Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJ3Zk81PaQVogRPCPI3Ch23qs",
+          "name": "McDowell Nature Preserve",
+          "types": [
+            "nature_preserve",
+            "park",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJuTYtkDqgVogRCdd6mhcMXZk",
+          "name": "Fourth Ward Park",
+          "types": [
+            "park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJgxJJqYSfVogRMxvRPzB8ki8",
+          "name": "Latta Park",
+          "types": [
+            "park",
+            "city_park",
+            "tourist_attraction",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJA34_YiWgVogR195FiSsXR_0",
+          "name": "Coco and the Director",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "ChIJg5gfa_ChVogRNUIJ-gBl8ec",
+          "name": "The Hobbyist",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "cocktail_bar",
+            "liquor_store",
+            "bar",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJh4XCEgChVogRda6fX2EA-0g",
+          "name": "Haraz Coffee House",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "bakery",
+            "dessert_shop",
+            "confectionery",
+            "tea_house",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJj3cMufKhVogRas8nFeRLdzY",
+          "name": "The Giddy Goat Coffee Roasters Plaza",
+          "types": [
+            "coffee_shop",
+            "breakfast_restaurant",
+            "beer_garden",
+            "wine_bar",
+            "coffee_roastery",
+            "cafe",
+            "bar",
+            "food_store",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJLVc_556fVogRfV46u9ccHpA",
+          "name": "Babaloo Coffee Club",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.2
+        },
+        {
+          "id": "ChIJJehEeOadVogRkNMnB96TYtk",
+          "name": "Backyard Brew",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "ChIJF6jN0rwdVIgRCa7TB99kGgI",
+          "name": "Vavela Cafe",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.7
+        },
+        {
+          "id": "ChIJT8ogcxKZVogRllA99CfjkB8",
+          "name": "Thousand Hills Coffee",
+          "types": [
+            "coffee_shop",
+            "breakfast_restaurant",
+            "cafe",
+            "bakery",
+            "food_store",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "ChIJL8lGGP2hVogRPpzLhiingmg",
+          "name": "Qahwah House Coffee - Charlotte",
+          "types": [
+            "coffee_shop",
+            "cafe",
+            "food_store",
+            "store",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.9
+        },
+        {
+          "id": "ChIJaSmx5QKhVogRgfFxybbnY3s",
+          "name": "Lottie’s Cafe",
+          "types": [
+            "coffee_shop",
+            "breakfast_restaurant",
+            "cafe",
+            "gift_shop",
+            "food_store",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+          ],
+          "rating": 4.6
+        }
+      ],
+      "events": [
+        {
+          "name": "Qahwah House Coffee - Charlotte",
+          "start": "09:00",
+          "end": "09:45",
+          "priority": true
+        },
+        {
+          "name": "Freedom Park",
+          "start": "09:15",
+          "end": "10:45",
+          "priority": true
+        },
+        {
+          "name": "Reedy Creek Nature Preserve",
+          "start": "09:33",
+          "end": "11:03",
+          "priority": true
+        },
+        {
+          "name": "The Giddy Goat Coffee Roasters Plaza",
+          "start": "09:51",
+          "end": "10:36",
+          "priority": true
+        },
+        {
+          "name": "Backyard Brew",
+          "start": "10:07",
+          "end": "10:52",
+          "priority": false
+        },
+        {
+          "name": "Mint Museum Uptown",
+          "start": "10:36",
+          "end": "12:16",
+          "priority": false
+        },
+        {
+          "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+          "start": "11:11",
+          "end": "13:11",
+          "priority": false
+        },
+        {
+          "name": "Sullenberger Aviation Museum",
+          "start": "12:11",
+          "end": "14:11",
+          "priority": false
+        },
+        {
+          "name": "NASCAR Hall of Fame",
+          "start": "12:35",
+          "end": "14:35",
+          "priority": false
+        },
+        {
+          "name": "McAlpine Creek Park",
+          "start": "13:35",
+          "end": "15:05",
+          "priority": false
+        }
+      ],
+      "optimalScore": 400,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 400,
+        "ratio": 1
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 3,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Coffee & Nature Retreat",
+                "rationale": "Maximizes early exploration of local coffee spots and nature preserves for a serene experience.",
+                "schedule": [
+                  {
+                    "name": "Qahwah House Coffee - Charlotte",
+                    "start": "09:00",
+                    "end": "09:45"
+                  },
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "Reedy Creek Nature Preserve",
+                    "start": "10:55",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "12:00",
+                    "end": "12:36"
+                  }
+                ]
+              },
+              {
+                "label": "Cultural & Scenic Mix",
+                "rationale": "Focuses on a blend of cultural visits and natural beauty, while still enjoying coffee stops.",
+                "schedule": [
+                  {
+                    "name": "Qahwah House Coffee - Charlotte",
+                    "start": "09:00",
+                    "end": "09:45"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "09:51",
+                    "end": "10:36"
+                  },
+                  {
+                    "name": "Freedom Park",
+                    "start": "10:45",
+                    "end": "12:00"
+                  },
+                  {
+                    "name": "Mint Museum Uptown",
+                    "start": "12:36",
+                    "end": "14:16"
+                  }
+                ]
+              },
+              {
+                "label": "Leisurely Urban Experience",
+                "rationale": "Stresses a mix of relaxing parks with quality coffee stops, maintaining a leisurely pace.",
+                "schedule": [
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "10:51",
+                    "end": "11:36"
+                  },
+                  {
+                    "name": "Reedy Creek Nature Preserve",
+                    "start": "11:45",
+                    "end": "13:00"
+                  },
+                  {
+                    "name": "NASCAR Hall of Fame",
+                    "start": "12:35",
+                    "end": "14:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Coffee & Nature Retreat",
+                "valid": false,
+                "reason": "\"Reedy Creek Nature Preserve\" at 10:55-11:55 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Cultural & Scenic Mix",
+                "valid": false,
+                "reason": "\"Freedom Park\" at 10:45-12:00 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Leisurely Urban Experience",
+                "valid": false,
+                "reason": "\"The Giddy Goat Coffee Roasters Plaza\" at 10:51-11:36 does not exactly match any original event",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Nature & Coffee Exploration",
+                "rationale": "Combines local coffee spots with natural tranquility for a refreshing morning.",
+                "schedule": [
+                  {
+                    "name": "Qahwah House Coffee - Charlotte",
+                    "start": "09:00",
+                    "end": "09:45"
+                  },
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "09:51",
+                    "end": "10:36"
+                  },
+                  {
+                    "name": "Reedy Creek Nature Preserve",
+                    "start": "10:45",
+                    "end": "11:03"
+                  }
+                ]
+              },
+              {
+                "label": "Cultural Journey with Coffee",
+                "rationale": "Prioritizes visiting cultural spots and coffee joints while enjoying the scenic city.",
+                "schedule": [
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "09:51",
+                    "end": "10:36"
+                  },
+                  {
+                    "name": "Mint Museum Uptown",
+                    "start": "10:36",
+                    "end": "12:16"
+                  },
+                  {
+                    "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                    "start": "11:11",
+                    "end": "13:11"
+                  }
+                ]
+              },
+              {
+                "label": "Comprehensive Park & Art Day",
+                "rationale": "Maximizes time spent in parks and art museums with efficient scheduling.",
+                "schedule": [
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "Mint Museum Uptown",
+                    "start": "10:36",
+                    "end": "12:16"
+                  },
+                  {
+                    "name": "Sullenberger Aviation Museum",
+                    "start": "12:11",
+                    "end": "14:11"
+                  },
+                  {
+                    "name": "McAlpine Creek Park",
+                    "start": "13:35",
+                    "end": "15:05"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Nature & Coffee Exploration",
+                "valid": false,
+                "reason": "\"Reedy Creek Nature Preserve\" at 10:45-11:03 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Cultural Journey with Coffee",
+                "valid": false,
+                "reason": "two or more events overlap: \"Mint Museum Uptown\" (10:36-12:16) overlaps \"Harvey B. Gantt Center for African-American Arts + Culture\" (11:11-13:11)",
+                "score": 0
+              },
+              {
+                "label": "Comprehensive Park & Art Day",
+                "valid": false,
+                "reason": "two or more events overlap: \"Freedom Park\" (09:15-10:45) overlaps \"Mint Museum Uptown\" (10:36-12:16)",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Coffee and Nature Discovery",
+                "rationale": "Prioritizes visiting two popular local coffee spots while enjoying the tranquility of urban parks.",
+                "schedule": [
+                  {
+                    "name": "Qahwah House Coffee - Charlotte",
+                    "start": "09:00",
+                    "end": "09:45"
+                  },
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "09:51",
+                    "end": "10:36"
+                  },
+                  {
+                    "name": "Reedy Creek Nature Preserve",
+                    "start": "10:36",
+                    "end": "11:03"
+                  }
+                ]
+              },
+              {
+                "label": "Cultural Day with Coffee Stops",
+                "rationale": "Emphasizes major cultural sites complemented by quality coffee experiences.",
+                "schedule": [
+                  {
+                    "name": "Qahwah House Coffee - Charlotte",
+                    "start": "09:00",
+                    "end": "09:45"
+                  },
+                  {
+                    "name": "The Giddy Goat Coffee Roasters Plaza",
+                    "start": "09:51",
+                    "end": "10:36"
+                  },
+                  {
+                    "name": "Mint Museum Uptown",
+                    "start": "10:36",
+                    "end": "12:16"
+                  },
+                  {
+                    "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                    "start": "11:11",
+                    "end": "13:11"
+                  }
+                ]
+              },
+              {
+                "label": "Nature and Art Focus",
+                "rationale": "Maximizes time between natural parks and art appreciation experiences.",
+                "schedule": [
+                  {
+                    "name": "Freedom Park",
+                    "start": "09:15",
+                    "end": "10:45"
+                  },
+                  {
+                    "name": "Reedy Creek Nature Preserve",
+                    "start": "10:45",
+                    "end": "11:03"
+                  },
+                  {
+                    "name": "Sullenberger Aviation Museum",
+                    "start": "12:11",
+                    "end": "14:11"
+                  },
+                  {
+                    "name": "McAlpine Creek Park",
+                    "start": "13:35",
+                    "end": "15:05"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Coffee and Nature Discovery",
+                "valid": false,
+                "reason": "\"Reedy Creek Nature Preserve\" at 10:36-11:03 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Cultural Day with Coffee Stops",
+                "valid": false,
+                "reason": "two or more events overlap: \"Mint Museum Uptown\" (10:36-12:16) overlaps \"Harvey B. Gantt Center for African-American Arts + Culture\" (11:11-13:11)",
+                "score": 0
+              },
+              {
+                "label": "Nature and Art Focus",
+                "valid": false,
+                "reason": "\"Reedy Creek Nature Preserve\" at 10:45-11:03 does not exactly match any original event",
+                "score": 0
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Coffee and Nature Discovery",
+            "rationale": "Prioritizes visiting two popular local coffee spots while enjoying the tranquility of urban parks.",
+            "schedule": [
+              {
+                "name": "Qahwah House Coffee - Charlotte",
+                "start": "09:00",
+                "end": "09:45"
+              },
+              {
+                "name": "Freedom Park",
+                "start": "09:15",
+                "end": "10:45"
+              },
+              {
+                "name": "The Giddy Goat Coffee Roasters Plaza",
+                "start": "09:51",
+                "end": "10:36"
+              },
+              {
+                "name": "Reedy Creek Nature Preserve",
+                "start": "10:36",
+                "end": "11:03"
+              }
+            ]
+          },
+          {
+            "label": "Cultural Day with Coffee Stops",
+            "rationale": "Emphasizes major cultural sites complemented by quality coffee experiences.",
+            "schedule": [
+              {
+                "name": "Qahwah House Coffee - Charlotte",
+                "start": "09:00",
+                "end": "09:45"
+              },
+              {
+                "name": "The Giddy Goat Coffee Roasters Plaza",
+                "start": "09:51",
+                "end": "10:36"
+              },
+              {
+                "name": "Mint Museum Uptown",
+                "start": "10:36",
+                "end": "12:16"
+              },
+              {
+                "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                "start": "11:11",
+                "end": "13:11"
+              }
+            ]
+          },
+          {
+            "label": "Nature and Art Focus",
+            "rationale": "Maximizes time between natural parks and art appreciation experiences.",
+            "schedule": [
+              {
+                "name": "Freedom Park",
+                "start": "09:15",
+                "end": "10:45"
+              },
+              {
+                "name": "Reedy Creek Nature Preserve",
+                "start": "10:45",
+                "end": "11:03"
+              },
+              {
+                "name": "Sullenberger Aviation Museum",
+                "start": "12:11",
+                "end": "14:11"
+              },
+              {
+                "name": "McAlpine Creek Park",
+                "start": "13:35",
+                "end": "15:05"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Coffee and Nature Discovery",
+            "schedule": [
+              {
+                "name": "Qahwah House Coffee - Charlotte",
+                "start": "09:00",
+                "end": "09:45"
+              },
+              {
+                "name": "Freedom Park",
+                "start": "09:15",
+                "end": "10:45"
+              },
+              {
+                "name": "The Giddy Goat Coffee Roasters Plaza",
+                "start": "09:51",
+                "end": "10:36"
+              },
+              {
+                "name": "Reedy Creek Nature Preserve",
+                "start": "10:36",
+                "end": "11:03"
+              }
+            ],
+            "valid": false,
+            "reason": "\"Reedy Creek Nature Preserve\" at 10:36-11:03 does not exactly match any original event",
+            "score": 0
+          },
+          {
+            "label": "Cultural Day with Coffee Stops",
+            "schedule": [
+              {
+                "name": "Qahwah House Coffee - Charlotte",
+                "start": "09:00",
+                "end": "09:45"
+              },
+              {
+                "name": "The Giddy Goat Coffee Roasters Plaza",
+                "start": "09:51",
+                "end": "10:36"
+              },
+              {
+                "name": "Mint Museum Uptown",
+                "start": "10:36",
+                "end": "12:16"
+              },
+              {
+                "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                "start": "11:11",
+                "end": "13:11"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap: \"Mint Museum Uptown\" (10:36-12:16) overlaps \"Harvey B. Gantt Center for African-American Arts + Culture\" (11:11-13:11)",
+            "score": 0
+          },
+          {
+            "label": "Nature and Art Focus",
+            "schedule": [
+              {
+                "name": "Freedom Park",
+                "start": "09:15",
+                "end": "10:45"
+              },
+              {
+                "name": "Reedy Creek Nature Preserve",
+                "start": "10:45",
+                "end": "11:03"
+              },
+              {
+                "name": "Sullenberger Aviation Museum",
+                "start": "12:11",
+                "end": "14:11"
+              },
+              {
+                "name": "McAlpine Creek Park",
+                "start": "13:35",
+                "end": "15:05"
+              }
+            ],
+            "valid": false,
+            "reason": "\"Reedy Creek Nature Preserve\" at 10:45-11:03 does not exactly match any original event",
+            "score": 0
+          }
+        ],
+        "validOptionCount": 0,
+        "bestValidScore": 0,
+        "ratio": 0,
+        "hadNoValidOption": true,
+        "repair": {
+          "options": [
+            {
+              "label": "Coffee & Nature Retreat",
+              "rationale": "Maximizes early exploration of local coffee spots and nature preserves for a serene experience.",
+              "schedule": [
+                {
+                  "name": "Qahwah House Coffee - Charlotte",
+                  "start": "09:00",
+                  "end": "09:45"
+                },
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                }
+              ],
+              "valid": true,
+              "score": 180,
+              "wasInvalid": true,
+              "beforeReason": "\"Reedy Creek Nature Preserve\" at 10:55-11:55 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "Reedy Creek Nature Preserve",
+                  "from": "10:55-11:55",
+                  "to": "09:33-11:03"
+                },
+                {
+                  "type": "snapped-time",
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "from": "12:00-12:36",
+                  "to": "09:51-10:36"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Freedom Park",
+                  "at": "09:15-10:45"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Reedy Creek Nature Preserve",
+                  "at": "09:33-11:03"
+                }
+              ]
+            },
+            {
+              "label": "Cultural & Scenic Mix",
+              "rationale": "Focuses on a blend of cultural visits and natural beauty, while still enjoying coffee stops.",
+              "schedule": [
+                {
+                  "name": "Qahwah House Coffee - Charlotte",
+                  "start": "09:00",
+                  "end": "09:45"
+                },
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                },
+                {
+                  "name": "Mint Museum Uptown",
+                  "start": "10:36",
+                  "end": "12:16"
+                }
+              ],
+              "valid": true,
+              "score": 280,
+              "wasInvalid": true,
+              "beforeReason": "\"Freedom Park\" at 10:45-12:00 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "Freedom Park",
+                  "from": "10:45-12:00",
+                  "to": "09:15-10:45"
+                },
+                {
+                  "type": "snapped-time",
+                  "name": "Mint Museum Uptown",
+                  "from": "12:36-14:16",
+                  "to": "10:36-12:16"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Freedom Park",
+                  "at": "09:15-10:45"
+                }
+              ]
+            },
+            {
+              "label": "Leisurely Urban Experience",
+              "rationale": "Stresses a mix of relaxing parks with quality coffee stops, maintaining a leisurely pace.",
+              "schedule": [
+                {
+                  "name": "Freedom Park",
+                  "start": "09:15",
+                  "end": "10:45"
+                },
+                {
+                  "name": "NASCAR Hall of Fame",
+                  "start": "12:35",
+                  "end": "14:35"
+                }
+              ],
+              "valid": true,
+              "score": 300,
+              "wasInvalid": true,
+              "beforeReason": "\"The Giddy Goat Coffee Roasters Plaza\" at 10:51-11:36 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "from": "10:51-11:36",
+                  "to": "09:51-10:36"
+                },
+                {
+                  "type": "snapped-time",
+                  "name": "Reedy Creek Nature Preserve",
+                  "from": "11:45-13:00",
+                  "to": "09:33-11:03"
+                },
+                {
+                  "type": "snapped-time",
+                  "name": "NASCAR Hall of Fame",
+                  "from": "12:35-14:00",
+                  "to": "12:35-14:35"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "at": "09:51-10:36"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Reedy Creek Nature Preserve",
+                  "at": "09:33-11:03"
+                }
+              ]
+            },
+            {
+              "label": "Nature & Coffee Exploration",
+              "rationale": "Combines local coffee spots with natural tranquility for a refreshing morning.",
+              "schedule": [
+                {
+                  "name": "Qahwah House Coffee - Charlotte",
+                  "start": "09:00",
+                  "end": "09:45"
+                },
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                }
+              ],
+              "valid": true,
+              "score": 180,
+              "wasInvalid": true,
+              "beforeReason": "\"Reedy Creek Nature Preserve\" at 10:45-11:03 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "Reedy Creek Nature Preserve",
+                  "from": "10:45-11:03",
+                  "to": "09:33-11:03"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Freedom Park",
+                  "at": "09:15-10:45"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Reedy Creek Nature Preserve",
+                  "at": "09:33-11:03"
+                }
+              ]
+            },
+            {
+              "label": "Cultural Journey with Coffee",
+              "rationale": "Prioritizes visiting cultural spots and coffee joints while enjoying the scenic city.",
+              "schedule": [
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                },
+                {
+                  "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                  "start": "11:11",
+                  "end": "13:11"
+                }
+              ],
+              "valid": true,
+              "score": 210,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Mint Museum Uptown\" (10:36-12:16) overlaps \"Harvey B. Gantt Center for African-American Arts + Culture\" (11:11-13:11)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Mint Museum Uptown",
+                  "at": "10:36-12:16"
+                }
+              ]
+            },
+            {
+              "label": "Comprehensive Park & Art Day",
+              "rationale": "Maximizes time spent in parks and art museums with efficient scheduling.",
+              "schedule": [
+                {
+                  "name": "Freedom Park",
+                  "start": "09:15",
+                  "end": "10:45"
+                },
+                {
+                  "name": "Sullenberger Aviation Museum",
+                  "start": "12:11",
+                  "end": "14:11"
+                }
+              ],
+              "valid": true,
+              "score": 300,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Freedom Park\" (09:15-10:45) overlaps \"Mint Museum Uptown\" (10:36-12:16)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Mint Museum Uptown",
+                  "at": "10:36-12:16"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "McAlpine Creek Park",
+                  "at": "13:35-15:05"
+                }
+              ]
+            },
+            {
+              "label": "Coffee and Nature Discovery",
+              "rationale": "Prioritizes visiting two popular local coffee spots while enjoying the tranquility of urban parks.",
+              "schedule": [
+                {
+                  "name": "Qahwah House Coffee - Charlotte",
+                  "start": "09:00",
+                  "end": "09:45"
+                },
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                }
+              ],
+              "valid": true,
+              "score": 180,
+              "wasInvalid": true,
+              "beforeReason": "\"Reedy Creek Nature Preserve\" at 10:36-11:03 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "Reedy Creek Nature Preserve",
+                  "from": "10:36-11:03",
+                  "to": "09:33-11:03"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Freedom Park",
+                  "at": "09:15-10:45"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Reedy Creek Nature Preserve",
+                  "at": "09:33-11:03"
+                }
+              ]
+            },
+            {
+              "label": "Cultural Day with Coffee Stops",
+              "rationale": "Emphasizes major cultural sites complemented by quality coffee experiences.",
+              "schedule": [
+                {
+                  "name": "Qahwah House Coffee - Charlotte",
+                  "start": "09:00",
+                  "end": "09:45"
+                },
+                {
+                  "name": "The Giddy Goat Coffee Roasters Plaza",
+                  "start": "09:51",
+                  "end": "10:36"
+                },
+                {
+                  "name": "Harvey B. Gantt Center for African-American Arts + Culture",
+                  "start": "11:11",
+                  "end": "13:11"
+                }
+              ],
+              "valid": true,
+              "score": 300,
+              "wasInvalid": true,
+              "beforeReason": "two or more events overlap: \"Mint Museum Uptown\" (10:36-12:16) overlaps \"Harvey B. Gantt Center for African-American Arts + Culture\" (11:11-13:11)",
+              "actions": [
+                {
+                  "type": "dropped-overlap",
+                  "name": "Mint Museum Uptown",
+                  "at": "10:36-12:16"
+                }
+              ]
+            },
+            {
+              "label": "Nature and Art Focus",
+              "rationale": "Maximizes time between natural parks and art appreciation experiences.",
+              "schedule": [
+                {
+                  "name": "Freedom Park",
+                  "start": "09:15",
+                  "end": "10:45"
+                },
+                {
+                  "name": "Sullenberger Aviation Museum",
+                  "start": "12:11",
+                  "end": "14:11"
+                }
+              ],
+              "valid": true,
+              "score": 300,
+              "wasInvalid": true,
+              "beforeReason": "\"Reedy Creek Nature Preserve\" at 10:45-11:03 does not exactly match any original event",
+              "actions": [
+                {
+                  "type": "snapped-time",
+                  "name": "Reedy Creek Nature Preserve",
+                  "from": "10:45-11:03",
+                  "to": "09:33-11:03"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "Reedy Creek Nature Preserve",
+                  "at": "09:33-11:03"
+                },
+                {
+                  "type": "dropped-overlap",
+                  "name": "McAlpine Creek Park",
+                  "at": "13:35-15:05"
+                }
+              ]
+            }
+          ],
+          "bestScore": 300,
+          "ratio": 0.75,
+          "hadNoValidOption": false
+        }
+      }
+    }
+  ]
+}

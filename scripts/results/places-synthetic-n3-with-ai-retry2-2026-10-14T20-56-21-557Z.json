@@ -1,0 +1,1806 @@
+{
+  "ranAt": "2026-10-14T20:56:21.565Z",
+  "source": "synthetic",
+  "options": {
+    "synthetic": true,
+    "runAi": true,
+    "retries": 2,
+    "cities": [
+      "Raleigh NC",
+      "Paris",
+      "Tokyo"
+    ],
+    "interests": [
+      "museum",
+      "park",
+      "cafe"
+    ],
+    "budget": "medium",
+    "hours": 8,
+    "candidates": 10
+  },
+  "summary": {
+    "greedyAvgPercent": 84.26,
+    "aiAvgPercent": 61.6,
+    "citiesWithNoValidAiOption": 1
+  },
+  "perCity": [
+    {
+      "city": "Raleigh NC",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Raleigh NC-0",
+          "name": "Raleigh NC shopping mall 1",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-1",
+          "name": "Raleigh NC museum 2",
+          "types": [
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-2",
+          "name": "Raleigh NC park 3",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-3",
+          "name": "Raleigh NC cafe 4",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-4",
+          "name": "Raleigh NC restaurant 5",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-5",
+          "name": "Raleigh NC art gallery 6",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-6",
+          "name": "Raleigh NC museum 7",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-7",
+          "name": "Raleigh NC park 8",
+          "types": [
+            "park"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-8",
+          "name": "Raleigh NC cafe 9",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-9",
+          "name": "Raleigh NC restaurant 10",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.3
+        },
+        {
+          "id": "synthetic-Raleigh NC-10",
+          "name": "Raleigh NC art gallery 11",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Raleigh NC-11",
+          "name": "Raleigh NC historical landmark 12",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.3
+        }
+      ],
+      "events": [
+        {
+          "name": "Raleigh NC museum 2",
+          "start": "09:00",
+          "end": "11:00",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC cafe 4",
+          "start": "09:24",
+          "end": "10:09",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC art gallery 6",
+          "start": "09:40",
+          "end": "11:10",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC park 8",
+          "start": "10:25",
+          "end": "11:55",
+          "priority": true
+        },
+        {
+          "name": "Raleigh NC park 3",
+          "start": "11:37",
+          "end": "13:07",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC museum 7",
+          "start": "12:49",
+          "end": "14:49",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC cafe 9",
+          "start": "13:49",
+          "end": "14:34",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC restaurant 10",
+          "start": "14:18",
+          "end": "15:48",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC historical landmark 12",
+          "start": "15:30",
+          "end": "16:45",
+          "priority": false
+        },
+        {
+          "name": "Raleigh NC shopping mall 1",
+          "start": "15:45",
+          "end": "17:00",
+          "priority": false
+        }
+      ],
+      "optimalScore": 465,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 390,
+        "ratio": 0.8387
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 3,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Highlights & Relaxation",
+                "rationale": "Focuses on maximizing visits to prioritized cultural events while allowing breaks for coffee and relaxation.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC museum 2",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "11:00",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  }
+                ]
+              },
+              {
+                "label": "Art & Nature Day",
+                "rationale": "Maximizes interaction with natural and artistic attractions while ensuring no overlap.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC art gallery 6",
+                    "start": "09:40",
+                    "end": "11:10"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "Raleigh NC restaurant 10",
+                    "start": "14:18",
+                    "end": "15:48"
+                  }
+                ]
+              },
+              {
+                "label": "Relaxed Café and Museum Route",
+                "rationale": "Emphasizes leisurely visits and breaks at cafes while ensuring priority events are included.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "09:24",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC museum 2",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Raleigh NC park 3",
+                    "start": "11:37",
+                    "end": "13:07"
+                  },
+                  {
+                    "name": "Raleigh NC historical landmark 12",
+                    "start": "15:30",
+                    "end": "16:45"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Highlights & Relaxation",
+                "valid": false,
+                "reason": "\"Raleigh NC cafe 4\" at 11:00-10:09 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Art & Nature Day",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Relaxed Café and Museum Route",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Morning & Afternoon",
+                "rationale": "Maximizes the number of priority cultural visits in the morning and includes a light lunch break.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC museum 2",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "09:24",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "Raleigh NC restaurant 10",
+                    "start": "14:18",
+                    "end": "15:48"
+                  }
+                ]
+              },
+              {
+                "label": "Art & Nature Experience",
+                "rationale": "Focused on art and nature, ensuring to enjoy both without event overlap.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC art gallery 6",
+                    "start": "09:40",
+                    "end": "11:10"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "Raleigh NC historical landmark 12",
+                    "start": "15:30",
+                    "end": "16:45"
+                  }
+                ]
+              },
+              {
+                "label": "Leisurely Café & Shopping",
+                "rationale": "Balances café visits with leisurely exploration, ending with a shopping trip.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "09:24",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC park 3",
+                    "start": "11:37",
+                    "end": "13:07"
+                  },
+                  {
+                    "name": "Raleigh NC shopping mall 1",
+                    "start": "15:45",
+                    "end": "17:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Morning & Afternoon",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Art & Nature Experience",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Leisurely Café & Shopping",
+                "valid": true,
+                "reason": null,
+                "score": 255
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Exploration",
+                "rationale": "Prioritizes visits to key cultural sites while fitting in a coffee break.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC museum 2",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "11:00",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC park 3",
+                    "start": "11:37",
+                    "end": "13:07"
+                  },
+                  {
+                    "name": "Raleigh NC restaurant 10",
+                    "start": "14:18",
+                    "end": "15:48"
+                  }
+                ]
+              },
+              {
+                "label": "Artful Day Out",
+                "rationale": "Focuses on art and leisure, ensuring a balanced mix without overlaps.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC art gallery 6",
+                    "start": "09:40",
+                    "end": "11:10"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "Raleigh NC cafe 9",
+                    "start": "13:49",
+                    "end": "14:34"
+                  },
+                  {
+                    "name": "Raleigh NC historical landmark 12",
+                    "start": "15:30",
+                    "end": "16:45"
+                  }
+                ]
+              },
+              {
+                "label": "Leisurely Cafe & Outdoor Adventure",
+                "rationale": "Emphasizes relaxing café moments and outdoor enjoyment.",
+                "schedule": [
+                  {
+                    "name": "Raleigh NC cafe 4",
+                    "start": "09:24",
+                    "end": "10:09"
+                  },
+                  {
+                    "name": "Raleigh NC park 8",
+                    "start": "10:25",
+                    "end": "11:55"
+                  },
+                  {
+                    "name": "Raleigh NC museum 7",
+                    "start": "12:49",
+                    "end": "14:49"
+                  },
+                  {
+                    "name": "Raleigh NC shopping mall 1",
+                    "start": "15:45",
+                    "end": "17:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Exploration",
+                "valid": false,
+                "reason": "\"Raleigh NC cafe 4\" at 11:00-10:09 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Artful Day Out",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Leisurely Cafe & Outdoor Adventure",
+                "valid": true,
+                "reason": null,
+                "score": 465
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Leisurely Café & Shopping",
+            "rationale": "Balances café visits with leisurely exploration, ending with a shopping trip.",
+            "schedule": [
+              {
+                "name": "Raleigh NC cafe 4",
+                "start": "09:24",
+                "end": "10:09"
+              },
+              {
+                "name": "Raleigh NC park 3",
+                "start": "11:37",
+                "end": "13:07"
+              },
+              {
+                "name": "Raleigh NC shopping mall 1",
+                "start": "15:45",
+                "end": "17:00"
+              }
+            ]
+          },
+          {
+            "label": "Leisurely Cafe & Outdoor Adventure",
+            "rationale": "Emphasizes relaxing café moments and outdoor enjoyment.",
+            "schedule": [
+              {
+                "name": "Raleigh NC cafe 4",
+                "start": "09:24",
+                "end": "10:09"
+              },
+              {
+                "name": "Raleigh NC park 8",
+                "start": "10:25",
+                "end": "11:55"
+              },
+              {
+                "name": "Raleigh NC museum 7",
+                "start": "12:49",
+                "end": "14:49"
+              },
+              {
+                "name": "Raleigh NC shopping mall 1",
+                "start": "15:45",
+                "end": "17:00"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Leisurely Café & Shopping",
+            "schedule": [
+              {
+                "name": "Raleigh NC cafe 4",
+                "start": "09:24",
+                "end": "10:09"
+              },
+              {
+                "name": "Raleigh NC park 3",
+                "start": "11:37",
+                "end": "13:07"
+              },
+              {
+                "name": "Raleigh NC shopping mall 1",
+                "start": "15:45",
+                "end": "17:00"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 255
+          },
+          {
+            "label": "Leisurely Cafe & Outdoor Adventure",
+            "schedule": [
+              {
+                "name": "Raleigh NC cafe 4",
+                "start": "09:24",
+                "end": "10:09"
+              },
+              {
+                "name": "Raleigh NC park 8",
+                "start": "10:25",
+                "end": "11:55"
+              },
+              {
+                "name": "Raleigh NC museum 7",
+                "start": "12:49",
+                "end": "14:49"
+              },
+              {
+                "name": "Raleigh NC shopping mall 1",
+                "start": "15:45",
+                "end": "17:00"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 465
+          }
+        ],
+        "validOptionCount": 2,
+        "bestValidScore": 465,
+        "ratio": 1,
+        "hadNoValidOption": false
+      }
+    },
+    {
+      "city": "Paris",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Paris-0",
+          "name": "Paris park 1",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Paris-1",
+          "name": "Paris cafe 2",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.2
+        },
+        {
+          "id": "synthetic-Paris-2",
+          "name": "Paris restaurant 3",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "synthetic-Paris-3",
+          "name": "Paris art gallery 4",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 4
+        },
+        {
+          "id": "synthetic-Paris-4",
+          "name": "Paris museum 5",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "synthetic-Paris-5",
+          "name": "Paris park 6",
+          "types": [
+            "park"
+          ],
+          "rating": 3.8
+        },
+        {
+          "id": "synthetic-Paris-6",
+          "name": "Paris cafe 7",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "synthetic-Paris-7",
+          "name": "Paris restaurant 8",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Paris-8",
+          "name": "Paris art gallery 9",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 4.2
+        },
+        {
+          "id": "synthetic-Paris-9",
+          "name": "Paris historical landmark 10",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "synthetic-Paris-10",
+          "name": "Paris shopping mall 11",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 4
+        },
+        {
+          "id": "synthetic-Paris-11",
+          "name": "Paris museum 12",
+          "types": [
+            "museum"
+          ],
+          "rating": 4.6
+        }
+      ],
+      "events": [
+        {
+          "name": "Paris museum 5",
+          "start": "09:00",
+          "end": "11:00",
+          "priority": true
+        },
+        {
+          "name": "Paris museum 12",
+          "start": "10:00",
+          "end": "12:00",
+          "priority": true
+        },
+        {
+          "name": "Paris cafe 7",
+          "start": "10:24",
+          "end": "11:09",
+          "priority": true
+        },
+        {
+          "name": "Paris cafe 2",
+          "start": "10:53",
+          "end": "11:38",
+          "priority": true
+        },
+        {
+          "name": "Paris art gallery 4",
+          "start": "11:09",
+          "end": "12:39",
+          "priority": false
+        },
+        {
+          "name": "Paris park 6",
+          "start": "11:54",
+          "end": "13:24",
+          "priority": false
+        },
+        {
+          "name": "Paris restaurant 3",
+          "start": "12:53",
+          "end": "14:23",
+          "priority": false
+        },
+        {
+          "name": "Paris historical landmark 10",
+          "start": "13:11",
+          "end": "14:26",
+          "priority": false
+        },
+        {
+          "name": "Paris park 1",
+          "start": "13:37",
+          "end": "15:07",
+          "priority": false
+        },
+        {
+          "name": "Paris art gallery 9",
+          "start": "14:49",
+          "end": "16:19",
+          "priority": false
+        }
+      ],
+      "optimalScore": 510,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 510,
+        "ratio": 1
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 3,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Treasures & Cozy Cafes",
+                "rationale": "Combines the must-visit museums with charming café experiences to immerse in Parisian culture.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris cafe 7",
+                    "start": "10:24",
+                    "end": "11:09"
+                  },
+                  {
+                    "name": "Paris restaurant 3",
+                    "start": "12:53",
+                    "end": "14:23"
+                  },
+                  {
+                    "name": "Paris art gallery 9",
+                    "start": "14:49",
+                    "end": "16:19"
+                  }
+                ]
+              },
+              {
+                "label": "Art & Leisure Day",
+                "rationale": "Maximizes the art experience while ensuring breaks for relaxation and dining.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 12",
+                    "start": "10:00",
+                    "end": "12:00"
+                  },
+                  {
+                    "name": "Paris park 6",
+                    "start": "11:54",
+                    "end": "13:24"
+                  },
+                  {
+                    "name": "Paris historical landmark 10",
+                    "start": "13:11",
+                    "end": "14:26"
+                  },
+                  {
+                    "name": "Paris art gallery 4",
+                    "start": "11:09",
+                    "end": "12:39"
+                  }
+                ]
+              },
+              {
+                "label": "Historic Journey with Coffee Breaks",
+                "rationale": "Focuses on historical sights while sampling local cafés for a true Paris experience.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris cafe 2",
+                    "start": "10:53",
+                    "end": "11:38"
+                  },
+                  {
+                    "name": "Paris historical landmark 10",
+                    "start": "13:11",
+                    "end": "14:26"
+                  },
+                  {
+                    "name": "Paris park 1",
+                    "start": "13:37",
+                    "end": "15:07"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Treasures & Cozy Cafes",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Art & Leisure Day",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Historic Journey with Coffee Breaks",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Highlights with Café Flavors",
+                "rationale": "Highlights key cultural landmarks with café breaks to savor the Parisian atmosphere.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris cafe 7",
+                    "start": "10:24",
+                    "end": "11:09"
+                  },
+                  {
+                    "name": "Paris historical landmark 10",
+                    "start": "13:11",
+                    "end": "14:26"
+                  },
+                  {
+                    "name": "Paris park 1",
+                    "start": "13:37",
+                    "end": "15:07"
+                  }
+                ]
+              },
+              {
+                "label": "Art Exploration with Relaxing Stops",
+                "rationale": "Prioritizes art experiences with relaxing park and café visits for a balanced day.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 12",
+                    "start": "10:00",
+                    "end": "12:00"
+                  },
+                  {
+                    "name": "Paris art gallery 4",
+                    "start": "11:09",
+                    "end": "12:39"
+                  },
+                  {
+                    "name": "Paris restaurant 3",
+                    "start": "12:53",
+                    "end": "14:23"
+                  },
+                  {
+                    "name": "Paris art gallery 9",
+                    "start": "14:49",
+                    "end": "16:19"
+                  }
+                ]
+              },
+              {
+                "label": "Historic Landmarks and Local Cuisine",
+                "rationale": "Visits key historical spots and mixes in local cafés to enjoy a diverse experience.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris cafe 2",
+                    "start": "10:53",
+                    "end": "11:38"
+                  },
+                  {
+                    "name": "Paris park 6",
+                    "start": "11:54",
+                    "end": "13:24"
+                  },
+                  {
+                    "name": "Paris museum 12",
+                    "start": "10:00",
+                    "end": "12:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Highlights with Café Flavors",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Art Exploration with Relaxing Stops",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Historic Landmarks and Local Cuisine",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Museums and Parks",
+                "rationale": "Focuses on significant museums followed by an afternoon in the park for relaxation.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris art gallery 4",
+                    "start": "11:09",
+                    "end": "12:39"
+                  },
+                  {
+                    "name": "Paris park 6",
+                    "start": "11:54",
+                    "end": "13:24"
+                  },
+                  {
+                    "name": "Paris historical landmark 10",
+                    "start": "13:11",
+                    "end": "14:26"
+                  },
+                  {
+                    "name": "Paris art gallery 9",
+                    "start": "14:49",
+                    "end": "16:19"
+                  }
+                ]
+              },
+              {
+                "label": "Cultural and Culinary Experience",
+                "rationale": "Balances museum visits with the experience of local cafes and a nice restaurant.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 5",
+                    "start": "09:00",
+                    "end": "11:00"
+                  },
+                  {
+                    "name": "Paris cafe 7",
+                    "start": "10:24",
+                    "end": "11:09"
+                  },
+                  {
+                    "name": "Paris restaurant 3",
+                    "start": "12:53",
+                    "end": "14:23"
+                  },
+                  {
+                    "name": "Paris park 1",
+                    "start": "13:37",
+                    "end": "15:07"
+                  }
+                ]
+              },
+              {
+                "label": "Art and Leisure",
+                "rationale": "Includes a museum visit and leisurely stops in parks to enjoy the surroundings.",
+                "schedule": [
+                  {
+                    "name": "Paris museum 12",
+                    "start": "10:00",
+                    "end": "12:00"
+                  },
+                  {
+                    "name": "Paris park 6",
+                    "start": "11:54",
+                    "end": "13:24"
+                  },
+                  {
+                    "name": "Paris cafe 2",
+                    "start": "10:53",
+                    "end": "11:38"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Museums and Parks",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Cultural and Culinary Experience",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Art and Leisure",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Museums and Parks",
+            "rationale": "Focuses on significant museums followed by an afternoon in the park for relaxation.",
+            "schedule": [
+              {
+                "name": "Paris museum 5",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Paris art gallery 4",
+                "start": "11:09",
+                "end": "12:39"
+              },
+              {
+                "name": "Paris park 6",
+                "start": "11:54",
+                "end": "13:24"
+              },
+              {
+                "name": "Paris historical landmark 10",
+                "start": "13:11",
+                "end": "14:26"
+              },
+              {
+                "name": "Paris art gallery 9",
+                "start": "14:49",
+                "end": "16:19"
+              }
+            ]
+          },
+          {
+            "label": "Cultural and Culinary Experience",
+            "rationale": "Balances museum visits with the experience of local cafes and a nice restaurant.",
+            "schedule": [
+              {
+                "name": "Paris museum 5",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Paris cafe 7",
+                "start": "10:24",
+                "end": "11:09"
+              },
+              {
+                "name": "Paris restaurant 3",
+                "start": "12:53",
+                "end": "14:23"
+              },
+              {
+                "name": "Paris park 1",
+                "start": "13:37",
+                "end": "15:07"
+              }
+            ]
+          },
+          {
+            "label": "Art and Leisure",
+            "rationale": "Includes a museum visit and leisurely stops in parks to enjoy the surroundings.",
+            "schedule": [
+              {
+                "name": "Paris museum 12",
+                "start": "10:00",
+                "end": "12:00"
+              },
+              {
+                "name": "Paris park 6",
+                "start": "11:54",
+                "end": "13:24"
+              },
+              {
+                "name": "Paris cafe 2",
+                "start": "10:53",
+                "end": "11:38"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Museums and Parks",
+            "schedule": [
+              {
+                "name": "Paris museum 5",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Paris art gallery 4",
+                "start": "11:09",
+                "end": "12:39"
+              },
+              {
+                "name": "Paris park 6",
+                "start": "11:54",
+                "end": "13:24"
+              },
+              {
+                "name": "Paris historical landmark 10",
+                "start": "13:11",
+                "end": "14:26"
+              },
+              {
+                "name": "Paris art gallery 9",
+                "start": "14:49",
+                "end": "16:19"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap",
+            "score": 0
+          },
+          {
+            "label": "Cultural and Culinary Experience",
+            "schedule": [
+              {
+                "name": "Paris museum 5",
+                "start": "09:00",
+                "end": "11:00"
+              },
+              {
+                "name": "Paris cafe 7",
+                "start": "10:24",
+                "end": "11:09"
+              },
+              {
+                "name": "Paris restaurant 3",
+                "start": "12:53",
+                "end": "14:23"
+              },
+              {
+                "name": "Paris park 1",
+                "start": "13:37",
+                "end": "15:07"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap",
+            "score": 0
+          },
+          {
+            "label": "Art and Leisure",
+            "schedule": [
+              {
+                "name": "Paris museum 12",
+                "start": "10:00",
+                "end": "12:00"
+              },
+              {
+                "name": "Paris park 6",
+                "start": "11:54",
+                "end": "13:24"
+              },
+              {
+                "name": "Paris cafe 2",
+                "start": "10:53",
+                "end": "11:38"
+              }
+            ],
+            "valid": false,
+            "reason": "two or more events overlap",
+            "score": 0
+          }
+        ],
+        "validOptionCount": 0,
+        "bestValidScore": 0,
+        "ratio": 0,
+        "hadNoValidOption": true
+      }
+    },
+    {
+      "city": "Tokyo",
+      "placeCount": 12,
+      "places": [
+        {
+          "id": "synthetic-Tokyo-0",
+          "name": "Tokyo museum 1",
+          "types": [
+            "museum"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Tokyo-1",
+          "name": "Tokyo park 2",
+          "types": [
+            "park",
+            "tourist_attraction"
+          ],
+          "rating": 4
+        },
+        {
+          "id": "synthetic-Tokyo-2",
+          "name": "Tokyo cafe 3",
+          "types": [
+            "cafe"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "synthetic-Tokyo-3",
+          "name": "Tokyo restaurant 4",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "synthetic-Tokyo-4",
+          "name": "Tokyo art gallery 5",
+          "types": [
+            "art_gallery",
+            "museum"
+          ],
+          "rating": 3.8
+        },
+        {
+          "id": "synthetic-Tokyo-5",
+          "name": "Tokyo museum 6",
+          "types": [
+            "museum",
+            "tourist_attraction"
+          ],
+          "rating": 4.2
+        },
+        {
+          "id": "synthetic-Tokyo-6",
+          "name": "Tokyo park 7",
+          "types": [
+            "park"
+          ],
+          "rating": 4.6
+        },
+        {
+          "id": "synthetic-Tokyo-7",
+          "name": "Tokyo cafe 8",
+          "types": [
+            "cafe",
+            "coffee_shop"
+          ],
+          "rating": 3.6
+        },
+        {
+          "id": "synthetic-Tokyo-8",
+          "name": "Tokyo restaurant 9",
+          "types": [
+            "restaurant"
+          ],
+          "rating": 4
+        },
+        {
+          "id": "synthetic-Tokyo-9",
+          "name": "Tokyo art gallery 10",
+          "types": [
+            "art_gallery"
+          ],
+          "rating": 4.4
+        },
+        {
+          "id": "synthetic-Tokyo-10",
+          "name": "Tokyo historical landmark 11",
+          "types": [
+            "historical_landmark",
+            "tourist_attraction"
+          ],
+          "rating": 4.8
+        },
+        {
+          "id": "synthetic-Tokyo-11",
+          "name": "Tokyo shopping mall 12",
+          "types": [
+            "shopping_mall"
+          ],
+          "rating": 3.8
+        }
+      ],
+      "events": [
+        {
+          "name": "Tokyo park 7",
+          "start": "09:00",
+          "end": "10:30",
+          "priority": true
+        },
+        {
+          "name": "Tokyo cafe 3",
+          "start": "09:18",
+          "end": "10:03",
+          "priority": true
+        },
+        {
+          "name": "Tokyo museum 6",
+          "start": "09:41",
+          "end": "11:41",
+          "priority": true
+        },
+        {
+          "name": "Tokyo park 2",
+          "start": "11:17",
+          "end": "12:47",
+          "priority": true
+        },
+        {
+          "name": "Tokyo art gallery 5",
+          "start": "12:02",
+          "end": "13:32",
+          "priority": false
+        },
+        {
+          "name": "Tokyo restaurant 4",
+          "start": "12:33",
+          "end": "14:03",
+          "priority": false
+        },
+        {
+          "name": "Tokyo historical landmark 11",
+          "start": "12:51",
+          "end": "14:06",
+          "priority": false
+        },
+        {
+          "name": "Tokyo museum 1",
+          "start": "13:29",
+          "end": "15:29",
+          "priority": false
+        },
+        {
+          "name": "Tokyo cafe 8",
+          "start": "15:05",
+          "end": "15:50",
+          "priority": false
+        },
+        {
+          "name": "Tokyo art gallery 10",
+          "start": "15:34",
+          "end": "17:00",
+          "priority": false
+        }
+      ],
+      "optimalScore": 566,
+      "greedy": {
+        "valid": true,
+        "reason": null,
+        "score": 390,
+        "ratio": 0.689
+      },
+      "ai": {
+        "retries": 2,
+        "attemptsUsed": 3,
+        "attempts": [
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Exploration",
+                "rationale": "Maximizes visits to priority museums and parks for a deep cultural experience.",
+                "schedule": [
+                  {
+                    "name": "Tokyo park 7",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo cafe 8",
+                    "start": "15:05",
+                    "end": "15:50"
+                  }
+                ]
+              },
+              {
+                "label": "Park & Cafe Delight",
+                "rationale": "Focuses on enjoying parks and cafes with leisurely breaks in between.",
+                "schedule": [
+                  {
+                    "name": "Tokyo park 7",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Tokyo cafe 3",
+                    "start": "10:03",
+                    "end": "10:50"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo museum 1",
+                    "start": "13:29",
+                    "end": "15:29"
+                  }
+                ]
+              },
+              {
+                "label": "Art & History Immersion",
+                "rationale": "Emphasizes art galleries and historical landmarks for a rich and diverse plan.",
+                "schedule": [
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo art gallery 5",
+                    "start": "12:02",
+                    "end": "13:32"
+                  },
+                  {
+                    "name": "Tokyo historical landmark 11",
+                    "start": "12:51",
+                    "end": "14:06"
+                  },
+                  {
+                    "name": "Tokyo art gallery 10",
+                    "start": "15:34",
+                    "end": "17:00"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Exploration",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Park & Cafe Delight",
+                "valid": false,
+                "reason": "\"Tokyo cafe 3\" at 10:03-10:50 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Art & History Immersion",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Art & Culture Focus",
+                "rationale": "Prioritizes museum and art visits along with park experiences for a cultural immersion.",
+                "schedule": [
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo restaurant 4",
+                    "start": "12:33",
+                    "end": "14:03"
+                  },
+                  {
+                    "name": "Tokyo art gallery 10",
+                    "start": "15:34",
+                    "end": "17:00"
+                  }
+                ]
+              },
+              {
+                "label": "Parks and Cafes Combination",
+                "rationale": "Maximizes time spent in parks alongside café breaks for a relaxed experience.",
+                "schedule": [
+                  {
+                    "name": "Tokyo park 7",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Tokyo cafe 3",
+                    "start": "10:03",
+                    "end": "10:50"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo museum 1",
+                    "start": "13:29",
+                    "end": "15:29"
+                  }
+                ]
+              },
+              {
+                "label": "Historical Highlights",
+                "rationale": "Combines visits to parks, museums, and notable landmarks for a comprehensive exploration.",
+                "schedule": [
+                  {
+                    "name": "Tokyo park 7",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo historical landmark 11",
+                    "start": "12:51",
+                    "end": "14:06"
+                  },
+                  {
+                    "name": "Tokyo art gallery 5",
+                    "start": "12:02",
+                    "end": "13:32"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Art & Culture Focus",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Parks and Cafes Combination",
+                "valid": false,
+                "reason": "\"Tokyo cafe 3\" at 10:03-10:50 does not exactly match any original event",
+                "score": 0
+              },
+              {
+                "label": "Historical Highlights",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          },
+          {
+            "rawOptions": [
+              {
+                "label": "Cultural Expedition",
+                "rationale": "Focuses on visiting key cultural spots while efficiently managing time.",
+                "schedule": [
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo restaurant 4",
+                    "start": "12:33",
+                    "end": "14:03"
+                  },
+                  {
+                    "name": "Tokyo art gallery 10",
+                    "start": "15:34",
+                    "end": "17:00"
+                  }
+                ]
+              },
+              {
+                "label": "Parks and Relaxation",
+                "rationale": "Maximizes time in parks and includes a café stop to enhance relaxation.",
+                "schedule": [
+                  {
+                    "name": "Tokyo park 7",
+                    "start": "09:00",
+                    "end": "10:30"
+                  },
+                  {
+                    "name": "Tokyo cafe 8",
+                    "start": "15:05",
+                    "end": "15:50"
+                  },
+                  {
+                    "name": "Tokyo park 2",
+                    "start": "11:17",
+                    "end": "12:47"
+                  },
+                  {
+                    "name": "Tokyo historical landmark 11",
+                    "start": "12:51",
+                    "end": "14:06"
+                  }
+                ]
+              },
+              {
+                "label": "Art and History Tour",
+                "rationale": "Emphasizes visits to museums and landmarks creating a rich historical narrative.",
+                "schedule": [
+                  {
+                    "name": "Tokyo museum 1",
+                    "start": "13:29",
+                    "end": "15:29"
+                  },
+                  {
+                    "name": "Tokyo museum 6",
+                    "start": "09:41",
+                    "end": "11:41"
+                  },
+                  {
+                    "name": "Tokyo historical landmark 11",
+                    "start": "12:51",
+                    "end": "14:06"
+                  }
+                ]
+              }
+            ],
+            "checked": [
+              {
+                "label": "Cultural Expedition",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              },
+              {
+                "label": "Parks and Relaxation",
+                "valid": true,
+                "reason": null,
+                "score": 480
+              },
+              {
+                "label": "Art and History Tour",
+                "valid": false,
+                "reason": "two or more events overlap",
+                "score": 0
+              }
+            ]
+          }
+        ],
+        "rawOptions": [
+          {
+            "label": "Parks and Relaxation",
+            "rationale": "Maximizes time in parks and includes a café stop to enhance relaxation.",
+            "schedule": [
+              {
+                "name": "Tokyo park 7",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "Tokyo cafe 8",
+                "start": "15:05",
+                "end": "15:50"
+              },
+              {
+                "name": "Tokyo park 2",
+                "start": "11:17",
+                "end": "12:47"
+              },
+              {
+                "name": "Tokyo historical landmark 11",
+                "start": "12:51",
+                "end": "14:06"
+              }
+            ]
+          }
+        ],
+        "scoredOptions": [
+          {
+            "label": "Parks and Relaxation",
+            "schedule": [
+              {
+                "name": "Tokyo park 7",
+                "start": "09:00",
+                "end": "10:30"
+              },
+              {
+                "name": "Tokyo cafe 8",
+                "start": "15:05",
+                "end": "15:50"
+              },
+              {
+                "name": "Tokyo park 2",
+                "start": "11:17",
+                "end": "12:47"
+              },
+              {
+                "name": "Tokyo historical landmark 11",
+                "start": "12:51",
+                "end": "14:06"
+              }
+            ],
+            "valid": true,
+            "reason": null,
+            "score": 480
+          }
+        ],
+        "validOptionCount": 1,
+        "bestValidScore": 480,
+        "ratio": 0.8481,
+        "hadNoValidOption": false
+      }
+    }
+  ]
+}

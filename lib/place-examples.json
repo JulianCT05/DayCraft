@@ -1,0 +1,648 @@
+[
+  {
+    "city": "Austin TX",
+    "budget": "low",
+    "interests": [
+      "parks",
+      "coffee"
+    ],
+    "hours": 5,
+    "options": [
+      {
+        "label": "Springs & Riverside Stroll",
+        "rationale": "Focuses on walkable waterfront spots with iconic low-cost outdoor hubs.",
+        "schedule": [
+          {
+            "name": "Barton Springs Municipal Pool",
+            "start": "09:30",
+            "end": "11:00"
+          },
+          {
+            "name": "Radio Coffee & Beer (Menchaca)",
+            "start": "11:15",
+            "end": "12:15"
+          },
+          {
+            "name": "Lady Bird Lake Hike-and-Bike Trail (Zilker Access)",
+            "start": "12:30",
+            "end": "14:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Chicago IL",
+    "budget": "high",
+    "interests": [
+      "art",
+      "food"
+    ],
+    "hours": 7,
+    "options": [
+      {
+        "label": "Downtown Architecture & Upscale Dining",
+        "rationale": "Pairs world-class Loop architecture with Michelin-caliber dining in the West Loop.",
+        "schedule": [
+          {
+            "name": "Art Institute of Chicago",
+            "start": "11:00",
+            "end": "13:30"
+          },
+          {
+            "name": "Chicago Architecture Center River Cruise",
+            "start": "14:00",
+            "end": "15:30"
+          },
+          {
+            "name": "The Publican (Fulton Market)",
+            "start": "16:30",
+            "end": "18:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Seattle WA",
+    "budget": "medium",
+    "interests": [
+      "coffee",
+      "museums",
+      "shopping"
+    ],
+    "hours": 6,
+    "options": [
+      {
+        "label": "Waterfront to Center Cultural Loop",
+        "rationale": "Combines waterfront market exploration with contemporary pop-culture exhibits.",
+        "schedule": [
+          {
+            "name": "Pike Place Market (Main Arcade & Crafts)",
+            "start": "09:30",
+            "end": "11:15"
+          },
+          {
+            "name": "Monorail Espresso (Pike St)",
+            "start": "11:30",
+            "end": "12:00"
+          },
+          {
+            "name": "Museum of Pop Culture (MoPOP)",
+            "start": "12:30",
+            "end": "15:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Savannah GA",
+    "budget": "medium",
+    "interests": [
+      "history",
+      "parks"
+    ],
+    "hours": 5,
+    "options": [
+      {
+        "label": "Historic Squares & Coastal Gothic",
+        "rationale": "Covers Savannah's best-preserved residential history and canopy-shaded green spaces.",
+        "schedule": [
+          {
+            "name": "Owens-Thomas House & Slave Quarters",
+            "start": "10:00",
+            "end": "11:30"
+          },
+          {
+            "name": "Forsyth Park & Fragrant Garden",
+            "start": "11:45",
+            "end": "13:00"
+          },
+          {
+            "name": "Mercer Williams House Museum",
+            "start": "13:15",
+            "end": "14:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Denver CO",
+    "budget": "low",
+    "interests": [
+      "museums",
+      "parks"
+    ],
+    "hours": 4,
+    "options": [
+      {
+        "label": "Civic Center Cultural Walk",
+        "rationale": "Maximizes a short afternoon using free admission venues and adjacent public plazas.",
+        "schedule": [
+          {
+            "name": "Denver Art Museum (Free General Days / Grounds)",
+            "start": "13:00",
+            "end": "14:45"
+          },
+          {
+            "name": "Civic Center Park",
+            "start": "15:00",
+            "end": "15:45"
+          },
+          {
+            "name": "Clyfford Still Museum",
+            "start": "16:00",
+            "end": "17:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "San Francisco CA",
+    "budget": "high",
+    "interests": [
+      "food",
+      "parks",
+      "shopping"
+    ],
+    "hours": 8,
+    "options": [
+      {
+        "label": "Embarcadero to Presidio Immersion",
+        "rationale": "Spans artisanal gourmet retail in the east to coastal bay landmarks in the northwest.",
+        "schedule": [
+          {
+            "name": "Ferry Building Marketplace",
+            "start": "10:00",
+            "end": "11:30"
+          },
+          {
+            "name": "The Presidio & Tunnel Tops Park",
+            "start": "12:00",
+            "end": "14:00"
+          },
+          {
+            "name": "Fillmore Street Boutiques",
+            "start": "14:30",
+            "end": "16:00"
+          },
+          {
+            "name": "State Bird Provisions",
+            "start": "17:30",
+            "end": "19:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Nashville TN",
+    "budget": "medium",
+    "interests": [
+      "history",
+      "food"
+    ],
+    "hours": 6,
+    "options": [
+      {
+        "label": "Roots of Music & Southern Comfort",
+        "rationale": "Prioritizes historic country music landmarks paired with legendary local cuisine.",
+        "schedule": [
+          {
+            "name": "Country Music Hall of Fame and Museum",
+            "start": "10:00",
+            "end": "12:15"
+          },
+          {
+            "name": "Prince's Hot Chicken Shack (Assembly Food Hall)",
+            "start": "12:30",
+            "end": "13:30"
+          },
+          {
+            "name": "Ryman Auditorium (Self-Guided Tour)",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Boston MA",
+    "budget": "low",
+    "interests": [
+      "history",
+      "parks"
+    ],
+    "hours": 5,
+    "options": [
+      {
+        "label": "Colonial Core & Public Gardens",
+        "rationale": "Explores the oldest public spaces and marked revolutionary sites without ticket fees.",
+        "schedule": [
+          {
+            "name": "Boston Common & Public Garden",
+            "start": "09:30",
+            "end": "11:00"
+          },
+          {
+            "name": "Freedom Trail (Granary Burying Ground to Faneuil Hall)",
+            "start": "11:15",
+            "end": "13:00"
+          },
+          {
+            "name": "Old North Church (Exterior Grounds & Copps Hill)",
+            "start": "13:15",
+            "end": "14:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Greensboro NC",
+    "budget": "low",
+    "interests": [
+      "museums",
+      "parks"
+    ],
+    "hours": 5,
+    "options": [
+      {
+        "label": "Free & walkable",
+        "rationale": "Sticks to no-cost attractions within a short drive of downtown.",
+        "schedule": [
+          {
+            "name": "Greensboro Science Center",
+            "start": "10:00",
+            "end": "12:00"
+          },
+          {
+            "name": "LeBauer Park",
+            "start": "12:15",
+            "end": "13:15"
+          },
+          {
+            "name": "Greensboro History Museum",
+            "start": "13:30",
+            "end": "15:00"
+          }
+        ]
+      },
+      {
+        "label": "Nature-focused",
+        "rationale": "Trades one museum for more outdoor time given the low budget.",
+        "schedule": [
+          {
+            "name": "Bog Garden at Benjamin Park",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "name": "Greensboro Arboretum",
+            "start": "11:15",
+            "end": "12:45"
+          },
+          {
+            "name": "Greensboro History Museum",
+            "start": "13:00",
+            "end": "14:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Charlotte NC",
+    "budget": "high",
+    "interests": [
+      "art",
+      "food"
+    ],
+    "hours": 8,
+    "options": [
+      {
+        "label": "Uptown culture crawl",
+        "rationale": "Concentrates on Uptown's museum row plus a higher-end dinner.",
+        "schedule": [
+          {
+            "name": "Mint Museum Uptown",
+            "start": "10:00",
+            "end": "12:00"
+          },
+          {
+            "name": "Bechtler Museum of Modern Art",
+            "start": "12:15",
+            "end": "13:45"
+          },
+          {
+            "name": "The Asbury (Dunhill Hotel)",
+            "start": "14:00",
+            "end": "15:30"
+          },
+          {
+            "name": "NoDa Arts District galleries",
+            "start": "16:30",
+            "end": "18:30"
+          }
+        ]
+      },
+      {
+        "label": "Gallery-hopping, dinner later",
+        "rationale": "Shifts the big meal to evening and adds more independent galleries.",
+        "schedule": [
+          {
+            "name": "NoDa Arts District galleries",
+            "start": "10:00",
+            "end": "12:30"
+          },
+          {
+            "name": "Mint Museum Randolph",
+            "start": "13:00",
+            "end": "15:00"
+          },
+          {
+            "name": "Fahrenheit Charlotte",
+            "start": "18:00",
+            "end": "19:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Winston-Salem NC",
+    "budget": "medium",
+    "interests": [
+      "history",
+      "coffee"
+    ],
+    "hours": 6,
+    "options": [
+      {
+        "label": "Old Salem deep dive",
+        "rationale": "Anchors the day around the historic district with a coffee break built in.",
+        "schedule": [
+          {
+            "name": "Old Salem Museums & Gardens",
+            "start": "10:00",
+            "end": "12:30"
+          },
+          {
+            "name": "Krankies Coffee",
+            "start": "13:00",
+            "end": "13:45"
+          },
+          {
+            "name": "Reynolda House Museum of American Art",
+            "start": "14:15",
+            "end": "16:15"
+          }
+        ]
+      },
+      {
+        "label": "Shorter, downtown-focused",
+        "rationale": "For a lighter day, skips Reynolda House in favor of downtown history.",
+        "schedule": [
+          {
+            "name": "Old Salem Museums & Gardens",
+            "start": "10:00",
+            "end": "12:30"
+          },
+          {
+            "name": "Downtown Winston-Salem Historic District walk",
+            "start": "13:00",
+            "end": "14:00"
+          },
+          {
+            "name": "Camino Bakery",
+            "start": "14:15",
+            "end": "15:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Greensboro NC",
+    "budget": "medium",
+    "interests": [
+      "food",
+      "shopping"
+    ],
+    "hours": 4,
+    "options": [
+      {
+        "label": "Short & central",
+        "rationale": "Everything sits within downtown Greensboro to minimize travel time for a short day.",
+        "schedule": [
+          {
+            "name": "Deep Roots Market",
+            "start": "11:00",
+            "end": "11:45"
+          },
+          {
+            "name": "Cheesecakes by Alex",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "name": "Downtown Greensboro shops",
+            "start": "13:15",
+            "end": "14:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Charlotte NC",
+    "budget": "low",
+    "interests": [
+      "parks",
+      "history"
+    ],
+    "hours": 5,
+    "options": [
+      {
+        "label": "Free outdoor day",
+        "rationale": "Free attractions only, given the low budget constraint.",
+        "schedule": [
+          {
+            "name": "Freedom Park",
+            "start": "10:00",
+            "end": "11:30"
+          },
+          {
+            "name": "Charlotte Museum of History (grounds)",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "name": "Little Sugar Creek Greenway",
+            "start": "13:30",
+            "end": "15:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Winston-Salem NC",
+    "budget": "low",
+    "interests": [
+      "museums",
+      "food"
+    ],
+    "hours": 7,
+    "options": [
+      {
+        "label": "Budget culture day",
+        "rationale": "Uses a free museum day and inexpensive local food stops.",
+        "schedule": [
+          {
+            "name": "Delta Arts Center",
+            "start": "10:00",
+            "end": "11:30"
+          },
+          {
+            "name": "Mary's Gourmet Diner",
+            "start": "12:00",
+            "end": "13:00"
+          },
+          {
+            "name": "SECCA (Southeastern Center for Contemporary Art)",
+            "start": "13:30",
+            "end": "15:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Greensboro NC",
+    "budget": "high",
+    "interests": [
+      "food",
+      "art"
+    ],
+    "hours": 6,
+    "options": [
+      {
+        "label": "Fine dining + galleries",
+        "rationale": "Pairs a higher-end lunch with the Green Hill Center's rotating exhibits.",
+        "schedule": [
+          {
+            "name": "Green Hill Center for NC Art",
+            "start": "10:00",
+            "end": "11:30"
+          },
+          {
+            "name": "Undercurrent Restaurant",
+            "start": "12:00",
+            "end": "13:30"
+          },
+          {
+            "name": "Weatherspoon Art Museum",
+            "start": "14:00",
+            "end": "15:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Charlotte NC",
+    "budget": "medium",
+    "interests": [
+      "coffee",
+      "shopping"
+    ],
+    "hours": 3,
+    "options": [
+      {
+        "label": "Quick South End loop",
+        "rationale": "Fits a short window by staying in one walkable neighborhood.",
+        "schedule": [
+          {
+            "name": "Not Just Coffee (South End)",
+            "start": "10:00",
+            "end": "10:45"
+          },
+          {
+            "name": "South End boutiques",
+            "start": "11:00",
+            "end": "12:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Winston-Salem NC",
+    "budget": "high",
+    "interests": [
+      "history",
+      "food"
+    ],
+    "hours": 8,
+    "options": [
+      {
+        "label": "Full historic-district day",
+        "rationale": "A longer window allows both major history sites and a sit-down dinner.",
+        "schedule": [
+          {
+            "name": "Old Salem Museums & Gardens",
+            "start": "09:30",
+            "end": "12:30"
+          },
+          {
+            "name": "Reynolda House Museum of American Art",
+            "start": "13:00",
+            "end": "15:00"
+          },
+          {
+            "name": "Marketplace Restaurant",
+            "start": "18:30",
+            "end": "20:00"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "city": "Greensboro NC",
+    "budget": "medium",
+    "interests": [
+      "parks",
+      "coffee"
+    ],
+    "hours": 4,
+    "options": [
+      {
+        "label": "Green & caffeinated",
+        "rationale": "Alternates outdoor time with coffee stops to keep the pace relaxed.",
+        "schedule": [
+          {
+            "name": "Tanger Family Bicentennial Garden",
+            "start": "10:00",
+            "end": "11:00"
+          },
+          {
+            "name": "Summit Coffee (Greensboro)",
+            "start": "11:15",
+            "end": "12:00"
+          },
+          {
+            "name": "Guilford Courthouse National Military Park",
+            "start": "12:15",
+            "end": "13:45"
+          }
+        ]
+      }
+    ]
+  }
+]
